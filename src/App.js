@@ -19,6 +19,8 @@ import EstimationManagementAbout from './pages/Estimation & Management/Estimatio
 import EstimationManagementServices from './pages/Estimation & Management/EstimationManagementServices';
 import EstimationManagementProjects from './pages/Estimation & Management/EstimationManagementProjects';
 import EstimationManagementTeam from './pages/Estimation & Management/EstimationManagementTeam';
+import EstimationManagementService from './pages/Estimation & Management/EstimationManagementService';
+import EstimationManagementProject from './pages/Estimation & Management/EstimationManagementProject';
 
 const App = () => {
   return (
@@ -46,6 +48,8 @@ const App = () => {
           <Route path="services" element={<EstimationManagementServices />} />
           <Route path="projects" element={<EstimationManagementProjects />} />
           <Route path="team" element={<EstimationManagementTeam />} />
+          <Route path="services/:service" element={<EstimationManagementService />} />
+          <Route path="projects/:project" element={<EstimationManagementProject />} />
         </Route>
       </Routes>
     </Fragment>
