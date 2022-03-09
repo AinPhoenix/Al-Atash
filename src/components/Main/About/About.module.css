@@ -1,0 +1,19 @@
+.Abouts {
+    padding: 35px 3% 15px ;
+    margin: 0px;
+}
+
+.OurServices {
+    padding: 35px 3% 15px ;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Abouts {
+        padding: 25px 1%;
+    }
+
+    .OurServices{
+        padding: 15px 1%;     
+    }
+}

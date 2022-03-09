@@ -1,0 +1,211 @@
+import AonAkhter from "./../images/Team/AonAkhter.png";
+import MuhammadJahangir from "./../images/Team/MuhammadJahangir.png";
+import HusnainAkhter from "./../images/Team/HusnainAkhter.png";
+import AnserAbbas from "./../images/Team/AnserAbbas.png";
+import MuhammadZainAkhter from "./../images/Team/MuhammadZainAkhter.png";
+import MuhammadAliRizwan from "./../images/Team/MuhammadAliRizwan.png";
+import MuhammadAliFaizanKhan from "./../images/Team/MuhammadAliFaizanKhan.png";
+import SundasFaizan from "./../images/Team/SundasFaizan.png";
+import MuhammadQasim from "./../images/Team/MuhammadQasim.png";
+import MuhammadSaqibBhatti from "./../images/Team/MuhammadSaqibBhatti.png";
+import HabiburRehman from "./../images/Team/male.png";
+import BenishAkhter from "./../images/Team/BenishAkhter.png";
+import MissSadiaAon from "./../images/Team/MissSadiaAon.png";
+import RajaNaimatUllah from "./../images/Team/RajaNaimatUllah.png";
+import AdrishBrishna from "./../images/Team/AdrishBrishna.png";
+import AqsaHussain from "./../images/Team/AqsaHussain.png";
+import MuqaddasQazi from "./../images/Team/MuqaddasQazi.png";
+
+const TeamData = () => {
+  return [
+    {
+      key: 1,
+      name: "Aon Akhter",
+      designation: "Chief Executive Officer",
+      img: AonAkhter,
+      whatsapp: "https://wa.me/923105072012?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923105072012",
+    },
+    {
+      key: 2,
+      name: "Muhammad Jahangir",
+      designation: "Vice Chairman",
+      img: MuhammadJahangir,
+      whatsapp: "https://wa.me/923170997273?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923170997273",
+    },
+    {
+      key: 3,
+      name: "Husnain Akhter",
+      designation: "Director Coordination",
+      img: HusnainAkhter,
+      whatsapp: "https://wa.me/+923125148072?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923125148072",
+    },
+    {
+      key: 4,
+      name: "Anser Abbas",
+      designation: "Executive Director",
+      img: AnserAbbas,
+      whatsapp: "https://wa.me/923347545123?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923347545123",
+    },
+    {
+      key: 5,
+      name: "Muhammad Zain Akhter",
+      designation: "General Manager Sales",
+      img: MuhammadZainAkhter,
+      whatsapp: "https://wa.me/923151560006?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923151560006",
+    },
+    {
+      key: 6,
+      name: "Muhammad Ali Rizwan",
+      designation: "Chief Financial Officer",
+      img: MuhammadAliRizwan,
+      whatsapp: "https://wa.me/923171775573?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923171775573",
+    },
+    {
+      key: 7,
+      name: "Muhammad Ali Faizan Khan",
+      designation: "Managing Director",
+      img: MuhammadAliFaizanKhan,
+      whatsapp: "https://wa.me/923171775571?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923171775571",
+    },
+    {
+      key: 8,
+      name: "Sundas Faizan",
+      designation: "Director Admin",
+      img: SundasFaizan,
+      whatsapp: "https://wa.me/923171775575?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923171775575",
+    },
+    {
+      key: 9,
+      name: "Muhammad Qasim",
+      designation: "Chief Operating Officer",
+      img: MuhammadQasim,
+      whatsapp: "https://wa.me/923171775574?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923171775574",
+    },
+    {
+      key: 10,
+      name: "Muhammad Saqib Bhatti",
+      designation: "General Manager Sales",
+      img: MuhammadSaqibBhatti,
+      whatsapp: "https://wa.me/923099563141?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923099563141",
+    },
+    {
+      key: 11,
+      name: "Habib ur Rehman",
+      designation: "HOD Architects",
+      img: HabiburRehman,
+      whatsapp: "https://wa.me/923005136697?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923005136697",
+    },
+    {
+      key: 12,
+      name: "Benish Akhter",
+      designation: "Project Director",
+      img: BenishAkhter,
+      whatsapp: "https://wa.me/923495072012?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923495072012",
+    },
+    {
+      key: 13,
+      name: "Miss Sadia Aon",
+      designation: "Senior Executive",
+      img: MissSadiaAon,
+      whatsapp: "https://wa.me/923495072012?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923495072012",
+    },
+    {
+      key: 14,
+      name: "Raja Naimat Ullah",
+      designation: "General Manager",
+      img: RajaNaimatUllah,
+      whatsapp: "https://wa.me/923335270622?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923335270622",
+    },
+    {
+      key: 15,
+      name: "Adrish Brishna",
+      designation: "HOD Marketing",
+      img: AdrishBrishna,
+      whatsapp: "https://wa.me/923171775570?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923171775570",
+    },
+    {
+      key: 16,
+      name: "Aqsa Hussain",
+      designation: "Manager Business Development & Sales",
+      img: AqsaHussain,
+      whatsapp: "https://wa.me/923111155572?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923111155572",
+    },
+    {
+      key: 17,
+      name: "Muqaddas Qazi",
+      designation: "Sales Developer",
+      img: MuqaddasQazi,
+      whatsapp: "https://wa.me/923171775576?text=I%20have%20a%20query",
+      instagram: "",
+      facebook: "",
+      twitter: "",
+      Phone: "+923171775576",
+    },
+  ];
+};
+
+export default TeamData;

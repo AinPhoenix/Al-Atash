@@ -1,0 +1,209 @@
+.parent{
+    opacity:1;
+    padding:0px 14vh;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    background:#6FC3B5 0% 0% no-repeat padding-box;
+    height:85vh;
+    width: 100%;
+}
+
+.imgalign{
+    text-align:left;
+    
+}
+
+.child{
+    text-align:justify;
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.childh1{
+    font: normal normal bold 80px/100px Calibri;
+    color: #3B393C;
+}
+
+.childh2{
+    padding:0 0; 
+    font: normal normal bold 35px/45px Calibri;
+    color: #3B393C;
+}
+
+.childp{
+    padding:5px 0;
+    font: normal normal bold 20px/25px Calibri;
+    color: #545151;
+}
+
+.childbtn{
+    font: normal normal bold 20px/23px Calibri;
+    border-radius:15px;
+    width:30%;
+    height: 100%;
+    padding:5px 15px; 
+    background: #00B4DB 0% 0% no-repeat padding-box;
+}
+
+.imgbox{
+    display:block;
+    text-align:right;
+    max-width:60%;
+   
+}
+
+.imgboximg{
+    padding-left:30px;
+    max-height: auto;
+    max-width: 100%;
+}
+
+@media(max-width: 1300px){
+    .parent{
+        height:60vh;
+        padding:0px 8vh;
+    }
+    .childh1{
+        font: normal normal bold 60px/80px Calibri;
+    }
+    .childh2{
+        font: normal normal bold 25px/35px Calibri;
+    }
+    .childp{
+        font: normal normal bold 15px/20px Calibri;
+    } 
+    .childbtn{
+        font: normal normal bold 15px/17px Calibri;
+     }
+  
+  }
+
+  @media(max-width: 890px){
+    .parent{
+        height:70vh;
+        flex-direction:column-reverse;
+        justify-content:space-around;
+    }
+    .child{
+        width:70%;
+        padding-bottom: 5vh;
+    }
+    .imgalign{
+        text-align:center;
+    }
+    .imgboximg{
+        padding-left:0;
+        padding-top: 5vh;
+    }
+    .imgbox{
+        max-width:80%;
+    }
+    .childh1{
+        font: normal normal bold 50px/70px Calibri;
+    }
+    .childh2{
+        font: normal normal bold 25px/35px Calibri;
+    }
+    .childp{
+        font: normal normal bold 15px/20px Calibri;
+    } 
+    .childbtn{
+        font: normal normal bold 15px/17px Calibri;
+        
+     }
+  
+  }  
+
+  
+  @media(max-width: 650px){
+    .parent{
+        height:55vh;
+        width: 100%;
+        padding:0px 7vh;
+    }
+    .childh1{
+        font: normal normal bold 45px/65px Calibri;
+    }
+  }
+
+  @media(max-width: 585px){
+.parent{
+    width: 100%;
+    padding:0px 5vh;
+}
+    .childh1{
+        font: normal normal bold 40px/60px Calibri;
+    }
+    .childh2{
+        font: normal normal bold 17px/27px Calibri;
+    }
+    .childp{
+        font: normal normal bold 15px/17px Calibri;
+    } 
+    .childbtn{
+        font: normal normal bold 12px/15px Calibri;
+      width: 30% ;
+      height: 100%; 
+     }
+  }
+
+
+  @media(max-width: 461px){
+    .parent{
+        height:65vh;
+        padding:0px 3vh;
+    }
+    .child{
+        width:70%;
+        padding-bottom: 5vh;
+    }
+    .childbtn{
+        padding: 0 0;
+    }
+    .imgboximg{
+        padding-left:0;
+        padding-top: 5vh;
+    }
+    .imgbox{
+        max-width:80%;
+    }
+
+  
+  }  
+  @media(max-width: 360px){
+    .parent{
+        height:65vh;
+        padding:0px 0.5vh;
+    }
+    .child{
+        width:70%;
+        padding-bottom: 3vh;
+    }
+    .childh1{
+        font: normal normal bold 30px/50px Calibri;
+    }
+    .childh2{
+        font: normal normal bold 16px/20px Calibri;
+    }
+    .childp{
+        font: normal normal bold 14px/16px Calibri;
+    } 
+    .childbtn{
+        font: normal normal bold 12px/15px Calibri;
+      width: 40% ;
+      height: 100%; 
+     }
+    .imgboximg{
+
+        padding-top: 3vh;
+    }
+    .imgbox{
+        max-width:80%;
+    }
+
+  
+  } 

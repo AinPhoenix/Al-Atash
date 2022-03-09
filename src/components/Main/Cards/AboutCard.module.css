@@ -1,0 +1,20 @@
+.AboutCard{
+    width: 25%;
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .AboutCard{
+        width: 90%;
+        text-decoration: none;
+        color: black;
+        
+    }
+
+    .Title {
+        font-size: 16px;
+        font-weight: bold;
+    }
+  }
+  

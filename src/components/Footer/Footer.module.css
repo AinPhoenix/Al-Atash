@@ -1,0 +1,46 @@
+.Footer {
+  background-color: "#414141";
+  padding: 20px 0px;
+}
+
+.CopyRight {
+  flex: 1;
+  color: white;
+}
+
+.WebAddress {
+  flex: 1;
+  color: white;
+}
+
+.Links {
+  flex: 1;
+}
+
+.LinkFloat {
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .Footer {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+  }
+
+  .WebAddress {
+    display: none;
+  }
+
+  .Links {
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+  }
+
+  .LinkFloat {
+    float: none;
+  }
+}

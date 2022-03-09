@@ -1,0 +1,12 @@
+.imgbox{
+    display:block;
+    width:260px;
+    background: transparent 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000040;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.img{
+    width: 260px;
+    height: 260px;
+}

@@ -1,0 +1,23 @@
+* {
+  font-family: "Cabin", sans-serif;
+}
+
+p {
+  padding: 0px !important;
+}
+
+.display_card:hover {
+  transform: translateY(-10px);
+}
+
+.display_card_2:hover {
+  transform: translateY(-5px);
+}
+
+.active_nav {
+  font-weight: 1000 !important;
+}
+
+.social-link {
+  width: 30%;
+}
