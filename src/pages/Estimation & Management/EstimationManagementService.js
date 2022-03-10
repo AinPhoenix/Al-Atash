@@ -1,7 +1,9 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
 const EstimationManagementService = () => {
-  return <div>EstimationManagementService</div>;
+  let { serviceId } = useParams();
+  return <div>{serviceId} working</div>;
 };
 
 export default EstimationManagementService;

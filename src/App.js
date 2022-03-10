@@ -48,8 +48,8 @@ const App = () => {
           <Route path="services" element={<EstimationManagementServices />} />
           <Route path="projects" element={<EstimationManagementProjects />} />
           <Route path="team" element={<EstimationManagementTeam />} />
-          <Route path="services/:service" element={<EstimationManagementService />} />
-          <Route path="projects/:project" element={<EstimationManagementProject />} />
+          <Route path="services/:serviceId" element={<EstimationManagementService />} />
+          <Route path="projects/:projectId" element={<EstimationManagementProject />} />
         </Route>
       </Routes>
     </Fragment>
