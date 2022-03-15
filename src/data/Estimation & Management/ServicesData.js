@@ -1,4 +1,6 @@
 import React from 'react';
+import TS1 from "../../images/Estimation & Management/Services/01-Turnkey Sheet/01.02-Before Construction (Trunkey Sheet).jpg";
+import TS2 from "../../images/Estimation & Management/Services/01-Turnkey Sheet/02-Frame Structure (Turnkey Sheet).jpg";
 
 const ServicesData = () => {
   return [
@@ -6,7 +8,7 @@ const ServicesData = () => {
       id: 1,
       name: 'Trunkey Sheet',
       price: 0.0,
-      pictures: [],
+      pictures: [TS1,TS2],
     },
     {
       id: 2,
