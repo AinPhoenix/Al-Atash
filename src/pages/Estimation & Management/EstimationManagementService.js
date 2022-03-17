@@ -10,6 +10,17 @@ const EstimationManagementService = () => {
   let data = ServicesFunction.fetchService(+serviceId);
 
   console.log(data);
+  
+  const priceComp = () => {
+    if(data.price!=0)
+    {
+      return <div>PKR. {data.price}/-</div>;
+    }
+    else{
+      return;
+    }
+  }
+  
 
   return(
     <div>
@@ -17,9 +28,15 @@ const EstimationManagementService = () => {
         <GlobalStyles />
         
         <div>
-        <ImageSlider style={{height: "75vh"}}  images={data.pictures}>
+        <ImageSlider style={{height: "90Vh"}}  images={data.pictures}>
                 
         </ImageSlider></div>
+        <div style={{padding:"0 10vh"}}>
+          <div style={{fontSize: "60px"}}>{data.name}</div>
+          <div style={{fontSize: "40px"}}>Labour + Material</div>
+          {priceComp()}
+          
+        </div>
         
     </div>
 );
