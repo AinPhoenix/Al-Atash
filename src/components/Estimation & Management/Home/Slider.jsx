@@ -16,9 +16,18 @@ const Slider = () => {
       img={card.img}
       />);
   });
-
-
-  
+const automateslider = () => {
+  var returnArr=[];
+  for (let i = 0; i < allCards.length; i++) {
+    if(i==0){
+   returnArr.push(<SwiperSlide className={classes.sslider1} style={{}}>  {allCards[i]}     </SwiperSlide>);
+    }
+    else{
+      returnArr.push(<SwiperSlide className={classes.sslider} style={{}}>  {allCards[i]}     </SwiperSlide>);
+    }
+  }
+  return returnArr;
+}
   return (
           <div  className={classes.parent} style={{  }}>
      
@@ -28,17 +37,11 @@ const Slider = () => {
 
   
        <Swiper slidesPerView="auto" style={{padding:"0 30px 0"}} className={`mySwiper`}>
-        <SwiperSlide className={classes.sslider1} style={{}}>{allCards[0]}</SwiperSlide>
-        <SwiperSlide className={classes.sslider} style={{}}>{allCards[1]}</SwiperSlide>
-        <SwiperSlide className={classes.sslider} style={{}}>{allCards[2]}</SwiperSlide>
-        <SwiperSlide className={classes.sslider} style={{}}>{allCards[3]}</SwiperSlide>
-        <SwiperSlide className={classes.sslider} style={{}}>{allCards[4]}</SwiperSlide>
-        <SwiperSlide className={classes.sslider} style={{}}>{allCards[5]}</SwiperSlide>
-        <SwiperSlide className={classes.sslider} style={{}}>{allCards[6]}</SwiperSlide>
-        <SwiperSlide className={classes.sslider} style={{}}>{allCards[7]}</SwiperSlide>
+       
+        {automateslider()}
         </Swiper>
   
-      
+  
 
 
       </div>

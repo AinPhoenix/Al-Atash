@@ -1,3 +1,5 @@
+import BOQ1 from "../../images/Estimation & Management/Project/01-6 Marla Villa Dha Multan/DHAM-6 MARLA-VOL-III BOQ-01.jpg";
+
 const ProjectsData = () => {
   return [
     {
@@ -11,7 +13,8 @@ const ProjectsData = () => {
       buildingArea: '6 Marla',
       unit: 10,
       projectType: 'Villa',
-      pictures: [],
+      pictures: [BOQ1],
+      price: 6000000.0,
     },
     {
       id: 2,
@@ -25,6 +28,7 @@ const ProjectsData = () => {
       unit: 10,
       projectType: 'Villa',
       pictures: [],
+      price:0.0,
     },
   ];
 };

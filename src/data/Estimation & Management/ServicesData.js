@@ -26,7 +26,7 @@ const ServicesData = () => {
     {
       key: 1,
       name: 'Trunkey Sheet',
-      price: 0.0,
+      price: 1.0,
       pictures: [TS1, TS2, TS3, TS4, TS5, TS6, TS7],
     },
     {
