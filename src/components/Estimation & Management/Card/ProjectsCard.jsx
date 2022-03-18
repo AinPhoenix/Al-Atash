@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import classes from './ProjectsCard.module.css';
 
-const ProjectsCard = ({ img, cmpTitle, secTitle, Link }) => {
+const ProjectsCard = ({ id, img, cmpTitle, secTitle }) => {
   return (
     <div className={classes.parent} style={{}}>
       <div style={{}}>
@@ -15,9 +16,9 @@ const ProjectsCard = ({ img, cmpTitle, secTitle, Link }) => {
           {secTitle}
         </div>
         <div>
-          <a href={Link} className={classes.btn} style={{}}>
+          <Link to={`/estimationManagement/projects/${id}`} className={classes.btn}>
             View Details
-          </a>
+          </Link>
         </div>
       </div>
     </div>

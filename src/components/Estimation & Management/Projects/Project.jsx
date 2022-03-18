@@ -1,14 +1,21 @@
 import React from 'react';
 import ProjectsData from '../../../data/ProjectsData';
+import ProjectsFunction from '../../../functions/Estimation & Management/ProjectsFunction';
 import ProjectsCard from '../Card/ProjectsCard';
 import TitleComponent from '../Extras/Title Component/TitleComponent';
 import classes from '../Home/Projects.module.css';
 
 const Projects = () => {
-  const AllGroups = ProjectsData();
+  const data = ProjectsFunction.fetchAllProjects();
 
-  const allCards = AllGroups.map((card) => (
-    <ProjectsCard key={card.key} secTitle={card.secondtitle} img={card.img} cmpTitle={card.title} Link={card.Link} />
+  const allCards = data.map((card) => (
+    <ProjectsCard
+      key={card.id}
+      id={card.id}
+      img={card.pictures[0]}
+      cmpTitle={card.projectName}
+      secTitle={card.workTitle}
+    />
   ));
 
   return (
