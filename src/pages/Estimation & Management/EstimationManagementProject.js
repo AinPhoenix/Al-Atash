@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../../components/Estimation & Management/Home/style.css';
+import classes from './EstimationManagementProject.module.css';
 
 const EstimationManagementProject = () => {
   let { projectId } = useParams();
@@ -15,17 +16,8 @@ const EstimationManagementProject = () => {
   const priceComp = () => {
     if (data.price != 0) {
       return (
-        <div style={{ padding: '10px 0 0 0', display: 'flex' }}>
-          <div
-            style={{
-              padding: '5px 40px',
-              color: '#FFFFFF',
-              background: '#00B4DB 0% 0% no-repeat padding-box',
-              fontSize: '3vh',
-              borderRadius: '7px',
-              boxShadow: '0px 3px 6px #0000005C',
-            }}
-          >
+        <div className={classes.pricecomp} style={{}}>
+          <div className={classes.pricecompchild} style={{}}>
             PKR {data.price}/-
           </div>
         </div>
@@ -40,18 +32,16 @@ const EstimationManagementProject = () => {
     for (let i = 0; i < data.pictures.length; i++) {
       if (i == 0) {
         returnArr.push(
-          <SwiperSlide style={{ boxShadow: '0px 3px 6px #0000005E', width: '350px', height: 'auto' }}>
+          <SwiperSlide className={classes.automateslider} style={{}}>
             {' '}
-            <img style={{ width: '350px', height: 'auto' }} src={data.pictures[i]} />{' '}
+            <img className={classes.automatesliderimg} style={{}} src={data.pictures[i]} />{' '}
           </SwiperSlide>
         );
       } else {
         returnArr.push(
-          <SwiperSlide
-            style={{ marginLeft: '3vh', boxShadow: '0px 3px 6px #0000005E', width: '400px', height: 'auto' }}
-          >
+          <SwiperSlide className={classes.automateslider1} style={{}}>
             {' '}
-            <img style={{ width: '350px', height: 'auto' }} src={data.pictures[i]} />{' '}
+            <img className={classes.automatesliderimg} style={{}} src={data.pictures[i]} />{' '}
           </SwiperSlide>
         );
       }
