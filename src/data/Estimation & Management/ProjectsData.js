@@ -378,7 +378,7 @@ const ProjectsData = () => {
       unit: 10,
       projectType: 'Villa',
       pictures: [BOQ1, BOQ2, BOQ3, BOQ4, BOQ5, BOQ6, BOQ7, BOQ8, BOQ9, BOQ10, BOQ11, BOQ12],
-      price: 0,
+      price: 10,
     },
     {
       id: 2,

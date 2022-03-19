@@ -29,3 +29,84 @@
   width: 350px;
   height: auto;
 }
+
+.maindisp {
+  height: 70vh;
+  width: 100%;
+}
+
+.maindispimg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.maindisptext {
+  display: flex;
+  height: 25vh;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 5vh 9vh;
+}
+
+.maindisptexth1 {
+  font-size: 5vh;
+}
+
+.maindisptexth2 {
+  font-size: 3vh;
+}
+
+@media (max-width: 1550px) {
+  .maindisp {
+    height: 50vh;
+  }
+  .maindisptexth1 {
+    font-size: 4vh;
+  }
+
+  .maindisptexth2 {
+    font-size: 2vh;
+  }
+  .pricecompchild {
+    padding: 5px 40px;
+    font-size: 2vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .maindisp {
+    height: 30vh;
+    width: 100%;
+  }
+  .maindisptext {
+    height: 20vh;
+    align-items: center;
+  }
+}
+
+@media (max-width: 870px) {
+  .maindisp {
+    height: 20vh;
+    width: 100%;
+  }
+  .maindisptext {
+    height: 15vh;
+  }
+  .maindisptexth1 {
+    font-size: 3vh;
+  }
+
+  .maindisptexth2 {
+    font-size: 2vh;
+  }
+  .pricecompchild {
+    font-size: 2vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .maindisptext {
+    padding: 3px;
+  }
+}

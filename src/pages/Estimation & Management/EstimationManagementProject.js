@@ -52,27 +52,23 @@ const EstimationManagementProject = () => {
   return (
     <div>
       <div>
-        <div style={{ height: '70vh', width: '100%' }}>
-          <img style={{ height: '100%', width: '100%', objectFit: 'cover' }} src={data.pictures[0]} />
+        <div className={classes.maindisp} style={{}}>
+          <img className={classes.maindispimg} style={{}} src={data.pictures[0]} />
         </div>
-        <div
-          style={{
-            display: 'flex',
-            height: '30vh',
-            justifyContent: 'space-evenly',
-            flexDirection: 'column',
-            padding: '5vh 9vh',
-          }}
-        >
-          <div style={{ fontSize: '5vh' }}>{data.projectName}</div>
-          <div style={{ fontSize: '3vh' }}>{data.work}</div>
+        <div className={classes.maindisptext} style={{}}>
+          <div className={classes.maindisptexth1} style={{}}>
+            {data.projectName}
+          </div>
+          <div className={classes.maindisptexth2} style={{}}>
+            {data.work}
+          </div>
           <div>{priceComp()}</div>
         </div>
       </div>
 
       {/* SLider */}
       <div style={{ padding: '6vh' }}>
-        <Swiper slidesPerView="auto" style={{ padding: '0 30px 0' }} className={`mySwiper`}>
+        <Swiper slidesPerView="auto" style={{ overflowY: 'hidden', padding: '0 30px 0' }} className={`mySwiper`}>
           {automateslider()}
         </Swiper>
       </div>
@@ -89,6 +85,7 @@ const EstimationManagementProject = () => {
           height: '50vh',
           background: '#191D19 0% 0% no-repeat padding-box',
           width: '100%',
+          overflowY: 'hidden',
         }}
       >
         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
@@ -157,7 +154,7 @@ const EstimationManagementProject = () => {
                 textAlign: 'center',
               }}
             >
-              <i class="fa fa-list" aria-hidden="true"></i>
+              <i class="fa fa-building" aria-hidden="true"></i>
             </div>
             <div style={{ marginLeft: '2vh', width: '30vh' }}>
               <div style={{ fontSize: '28px' }}>Project</div>
