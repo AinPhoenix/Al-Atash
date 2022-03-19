@@ -40,16 +40,18 @@ const EstimationManagementProject = () => {
     for (let i = 0; i < data.pictures.length; i++) {
       if (i == 0) {
         returnArr.push(
-          <SwiperSlide style={{ width: '400px', height: '500px' }}>
+          <SwiperSlide style={{ boxShadow: '0px 3px 6px #0000005E', width: '350px', height: 'auto' }}>
             {' '}
-            <img style={{ width: '400px', height: 'auto' }} src={data.pictures[i]} />{' '}
+            <img style={{ width: '350px', height: 'auto' }} src={data.pictures[i]} />{' '}
           </SwiperSlide>
         );
       } else {
         returnArr.push(
-          <SwiperSlide style={{ width: '400px', height: '500px' }}>
+          <SwiperSlide
+            style={{ marginLeft: '3vh', boxShadow: '0px 3px 6px #0000005E', width: '400px', height: 'auto' }}
+          >
             {' '}
-            <img style={{ width: '400px', height: 'auto' }} src={data.pictures[i]} />{' '}
+            <img style={{ width: '350px', height: 'auto' }} src={data.pictures[i]} />{' '}
           </SwiperSlide>
         );
       }
@@ -90,8 +92,8 @@ const EstimationManagementProject = () => {
         style={{
           display: 'flex',
           padding: '10vh  15vh',
-          flexDirection: 'column',
-          justifyContent: 'space-between',
+          flexDirection: 'row',
+          justifyContent: 'space-around',
           color: '#FFFFFF',
           width: '100%',
           height: '50vh',
@@ -99,91 +101,168 @@ const EstimationManagementProject = () => {
           width: '100%',
         }}
       >
-        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
           <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <i style={{ border: '5px solid #FFFFFF', borderRadius: '18px', padding: '2vh' }} class="fas fa-list"></i>
-
-            <div style={{ display: 'flex', flexDirection: 'column', padding: '0 20px' }}>
-              <div style={{ fontSize: '2.5vh', fontWeight: 'bold' }}>Project</div>
-              <div style={{ fontSize: '2vh' }}>Wake Field Farm House</div>
+            <div
+              style={{
+                borderRadius: '2vh',
+                border: '5px solid white',
+                padding: '17px',
+                margin: 'auto',
+                textAlign: 'center',
+              }}
+            >
+              <i class="fa fa-list" aria-hidden="true"></i>
+            </div>
+            <div style={{ marginLeft: '2vh', width: '30vh' }}>
+              <div style={{ fontSize: '28px' }}>Project Name</div>
+              <div style={{ fontSize: '20px' }}>{data.projectName}</div>
             </div>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <i style={{ border: '5px solid #FFFFFF', borderRadius: '18px', padding: '2vh' }} class="fas fa-list"></i>
-
-            <div style={{ display: 'flex', flexDirection: 'column', padding: '0 20px' }}>
-              <div style={{ fontSize: '2.5vh', fontWeight: 'bold' }}>Project</div>
-              <div style={{ fontSize: '2vh' }}>Wake Field Farm House</div>
+            <div
+              style={{
+                borderRadius: '2vh',
+                border: '5px solid white',
+                padding: '17px',
+                margin: 'auto',
+                textAlign: 'center',
+              }}
+            >
+              <i class="fa fa-list" aria-hidden="true"></i>
+            </div>
+            <div style={{ marginLeft: '2vh', width: '30vh' }}>
+              <div style={{ fontSize: '28px' }}>Client</div>
+              <div style={{ fontSize: '20px' }}>{data.client}</div>
             </div>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <i style={{ border: '5px solid #FFFFFF', borderRadius: '18px', padding: '2vh' }} class="fas fa-list"></i>
+            <div
+              style={{
+                borderRadius: '2vh',
+                border: '5px solid white',
+                padding: '17px',
+                margin: 'auto',
+                textAlign: 'center',
+              }}
+            >
+              <i class="fa fa-list" aria-hidden="true"></i>
+            </div>
+            <div style={{ marginLeft: '2vh', width: '30vh' }}>
+              <div style={{ fontSize: '28px' }}>Location</div>
+              <div style={{ fontSize: '20px' }}>{data.siteLocation}</div>
+            </div>
+          </div>
+        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+          <div style={{ display: 'flex', flexDirection: 'row' }}>
+            <div
+              style={{
+                borderRadius: '2vh',
+                border: '5px solid white',
+                padding: '17px',
+                margin: 'auto',
+                textAlign: 'center',
+              }}
+            >
+              <i class="fa fa-list" aria-hidden="true"></i>
+            </div>
+            <div style={{ marginLeft: '2vh', width: '30vh' }}>
+              <div style={{ fontSize: '28px' }}>Project</div>
+              <div style={{ fontSize: '20px' }}>{data.project}</div>
+            </div>
+          </div>
 
-            <div style={{ display: 'flex', flexDirection: 'column', padding: '0 20px' }}>
-              <div style={{ fontSize: '2.5vh', fontWeight: 'bold' }}>Project</div>
-              <div style={{ fontSize: '2vh' }}>Wake Field Farm House</div>
+          <div style={{ display: 'flex', flexDirection: 'row' }}>
+            <div
+              style={{
+                borderRadius: '2vh',
+                border: '5px solid white',
+                padding: '17px',
+                margin: 'auto',
+                textAlign: 'center',
+              }}
+            >
+              <i class="fa fa-list" aria-hidden="true"></i>
+            </div>
+            <div style={{ marginLeft: '2vh', width: '30vh' }}>
+              <div style={{ fontSize: '28px' }}>Work</div>
+              <div style={{ fontSize: '20px' }}>{data.work}</div>
+            </div>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'row' }}>
+            <div
+              style={{
+                borderRadius: '2vh',
+                border: '5px solid white',
+                padding: '17px',
+                margin: 'auto',
+                textAlign: 'center',
+              }}
+            >
+              <i class="fa fa-list" aria-hidden="true"></i>
+            </div>
+            <div style={{ marginLeft: '2vh', width: '30vh' }}>
+              <div style={{ fontSize: '28px' }}>Work Title</div>
+              <div style={{ fontSize: '20px' }}>{data.workTitle}</div>
             </div>
           </div>
         </div>
 
-        {/* 2 */}
-        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
           <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <i style={{ border: '5px solid #FFFFFF', borderRadius: '18px', padding: '2vh' }} class="fas fa-list"></i>
-
-            <div style={{ display: 'flex', flexDirection: 'column', padding: '0 20px' }}>
-              <div style={{ fontSize: '2.5vh', fontWeight: 'bold' }}>Project</div>
-              <div style={{ fontSize: '2vh' }}>Wake Field Farm House</div>
+            <div
+              style={{
+                borderRadius: '2vh',
+                border: '5px solid white',
+                padding: '17px',
+                margin: 'auto',
+                textAlign: 'center',
+              }}
+            >
+              <i class="fa fa-list" aria-hidden="true"></i>
+            </div>
+            <div style={{ marginLeft: '2vh', width: '20vh' }}>
+              <div style={{ fontSize: '28px' }}>Unit</div>
+              <div style={{ fontSize: '20px' }}>{data.unit}</div>
             </div>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <i style={{ border: '5px solid #FFFFFF', borderRadius: '18px', padding: '2vh' }} class="fas fa-list"></i>
-
-            <div style={{ display: 'flex', flexDirection: 'column', padding: '0 20px' }}>
-              <div style={{ fontSize: '2.5vh', fontWeight: 'bold' }}>Project</div>
-              <div style={{ fontSize: '2vh' }}>Wake Field Farm House</div>
+            <div
+              style={{
+                borderRadius: '2vh',
+                border: '5px solid white',
+                padding: '17px',
+                margin: 'auto',
+                textAlign: 'center',
+              }}
+            >
+              <i class="fa fa-list" aria-hidden="true"></i>
+            </div>
+            <div style={{ marginLeft: '2vh', width: '20vh' }}>
+              <div style={{ fontSize: '28px' }}>Project Type</div>
+              <div style={{ fontSize: '20px' }}>{data.projectType}</div>
             </div>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <i style={{ border: '5px solid #FFFFFF', borderRadius: '18px', padding: '2vh' }} class="fas fa-list"></i>
-
-            <div style={{ display: 'flex', flexDirection: 'column', padding: '0 20px' }}>
-              <div style={{ fontSize: '2.5vh', fontWeight: 'bold' }}>Project</div>
-              <div style={{ fontSize: '2vh' }}>Wake Field Farm House</div>
+            <div
+              style={{
+                borderRadius: '2vh',
+                border: '5px solid white',
+                padding: '17px',
+                margin: 'auto',
+                textAlign: 'center',
+              }}
+            >
+              <i style={{}} class="fa fa-list" aria-hidden="true"></i>
             </div>
-          </div>
-        </div>
-
-        {/* 3 */}
-        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <i style={{ border: '5px solid #FFFFFF', borderRadius: '18px', padding: '2vh' }} class="fas fa-list"></i>
-
-            <div style={{ display: 'flex', flexDirection: 'column', padding: '0 20px' }}>
-              <div style={{ fontSize: '2.5vh', fontWeight: 'bold' }}>Project</div>
-              <div style={{ fontSize: '2vh' }}>Wake Field Farm House</div>
-            </div>
-          </div>
-
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <i style={{ border: '5px solid #FFFFFF', borderRadius: '18px', padding: '2vh' }} class="fas fa-list"></i>
-
-            <div style={{ display: 'flex', flexDirection: 'column', padding: '0 20px' }}>
-              <div style={{ fontSize: '2.5vh', fontWeight: 'bold' }}>Project</div>
-              <div style={{ fontSize: '2vh' }}>Wake Field Farm House</div>
-            </div>
-          </div>
-
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <i style={{ border: '5px solid #FFFFFF', borderRadius: '18px', padding: '2vh' }} class="fas fa-list"></i>
-
-            <div style={{ display: 'flex', flexDirection: 'column', padding: '0 20px' }}>
-              <div style={{ fontSize: '2.5vh', fontWeight: 'bold' }}>Project</div>
-              <div style={{ fontSize: '2vh' }}>Wake Field Farm House</div>
+            <div style={{ marginLeft: '2vh', width: '20vh' }}>
+              <div style={{ fontSize: '28px' }}>Building</div>
+              <div style={{ fontSize: '20px' }}>{data.buildingArea}</div>
             </div>
           </div>
         </div>

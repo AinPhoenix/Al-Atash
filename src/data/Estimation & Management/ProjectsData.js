@@ -1,4 +1,4 @@
-import BOQ1 from "../../images/Estimation & Management/Project/01-6 Marla Villa Dha Multan/DHAM-6 MARLA-VOL-III BOQ-01.jpg";
+import BOQ1 from '../../images/Estimation & Management/Project/01-6 Marla Villa Dha Multan/DHAM-6 MARLA-VOL-III BOQ-01.jpg';
 import BOQ2 from '../../images/Estimation & Management/Project/01-6 Marla Villa Dha Multan/DHAM-6 MARLA-VOL-III BOQ-07.jpg';
 import BOQ3 from '../../images/Estimation & Management/Project/01-6 Marla Villa Dha Multan/DHAM-6 MARLA-VOL-III BOQ-08.jpg';
 import BOQ4 from '../../images/Estimation & Management/Project/01-6 Marla Villa Dha Multan/DHAM-6 MARLA-VOL-III BOQ-12.jpg';
@@ -24,7 +24,7 @@ const ProjectsData = () => {
       buildingArea: '6 Marla',
       unit: 10,
       projectType: 'Villa',
-      pictures: [BOQ1,BOQ2,BOQ3,BOQ4,BOQ5,BOQ6,BOQ7,BOQ8,BOQ9,BOQ10,BOQ11,BOQ12],
+      pictures: [BOQ1, BOQ2, BOQ3, BOQ4, BOQ5, BOQ6, BOQ7, BOQ8, BOQ9, BOQ10, BOQ11, BOQ12],
       price: 6000000.0,
     },
     {
@@ -39,7 +39,7 @@ const ProjectsData = () => {
       unit: 10,
       projectType: 'Villa',
       pictures: [],
-      price:0.0,
+      price: 0.0,
     },
   ];
 };
