@@ -42,7 +42,7 @@ const App = () => {
         </Route>
 
         {/* Estimation & Management */}
-        <Route path="/estimationManagement" element={<EstimationManagementMain />}>
+        <Route path="/EstimationManagement" element={<EstimationManagementMain />}>
           <Route index={true} path="" element={<EstimationManagementHome />} />
           <Route path="about" element={<EstimationManagementAbout />} />
           <Route path="services" element={<EstimationManagementServices />} />

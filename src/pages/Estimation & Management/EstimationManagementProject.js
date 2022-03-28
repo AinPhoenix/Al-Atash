@@ -73,6 +73,7 @@ const EstimationManagementProject = () => {
         </Swiper>
       </div>
       <div style={{ padding: '3vh' }}></div>
+
       {/* box */}
       <div
         style={{
