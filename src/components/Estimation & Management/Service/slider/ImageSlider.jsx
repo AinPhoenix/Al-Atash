@@ -95,7 +95,7 @@ const ImageSlider = ({ images = [], autoPlay = true, autoPlayTime = 3000, childr
             marginLeft: index === 0 ? `-${currentSlide * 100}%` : undefined,
           }}
         >
-          <img style={{ objectFit: 'contain', width: '100%' }} src={imageUrl} />
+          <img style={{ objectFit: 'contain', height: '400px', width: '100%' }} src={imageUrl} />
         </Slide>
       ))}
       {/* <Gradient/> */}

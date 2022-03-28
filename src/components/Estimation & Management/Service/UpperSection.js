@@ -53,7 +53,7 @@ const UpperSection = ({ title, price, pictures }) => {
 
           <div>
             <ImageSlider
-              style={{ objectFit: 'contain', height: '50vh', width: 'auto' }}
+              style={{ objectFit: 'contain', height: '400px', width: '100%' }}
               images={pictures}
             ></ImageSlider>
           </div>
