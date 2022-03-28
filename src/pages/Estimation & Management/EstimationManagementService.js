@@ -1,10 +1,6 @@
 import React from 'react';
-import GlobalStyles from './slider/GlobalStyles';
-import ImageSlider from './slider/ImageSlider';
-import styled from 'styled-components';
 import { useParams } from 'react-router-dom';
 import ServicesFunction from '../../functions/Estimation & Management/ServicesFunction';
-import pic from '../../images/Estimation & Management/Services/01-Turnkey Sheet/01.02-Before Construction (Trunkey Sheet).jpg';
 import UpperSection from '../../components/Estimation & Management/Service/UpperSection';
 import LowerSection from '../../components/Estimation & Management/Service/LowerSection';
 

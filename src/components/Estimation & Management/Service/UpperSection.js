@@ -1,5 +1,7 @@
 import React from 'react';
-
+import GlobalStyles from './slider/GlobalStyles';
+import ImageSlider from './slider/ImageSlider';
+import styled from 'styled-components';
 import classes from './UpperSection.module.css';
 
 const UpperSection = ({ title, price, pictures }) => {
@@ -46,7 +48,16 @@ const UpperSection = ({ title, price, pictures }) => {
 
       {/* Slider Comes Here */}
       <div className={classes.rightSection}>
-        <div className={classes.slider}>Slider</div>
+        <div className={classes.slider}>
+          <GlobalStyles />
+
+          <div>
+            <ImageSlider
+              style={{ objectFit: 'contain', height: '50vh', width: 'auto' }}
+              images={pictures}
+            ></ImageSlider>
+          </div>
+        </div>
         <div className={classes.pageData}>
           <h1>{title}</h1>
           <div>Labour + Material</div>
