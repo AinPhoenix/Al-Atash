@@ -1,0 +1,78 @@
+.section {
+  display: flex;
+  padding: 25px;
+}
+
+.leftSection {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 50px;
+  height: 80%;
+}
+
+.leftSection .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.leftSection .card .icons {
+  font-size: 30px;
+}
+.leftSection .card .title {
+  font-size: 20px;
+}
+
+.rightSection {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pageData {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .section {
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+  }
+
+  .rightSection {
+    width: 100%;
+  }
+
+  .leftSection {
+    width: 100%;
+    padding-top: 50px;
+    row-gap: 25px;
+  }
+
+  .leftSection .card {
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .rightSection h1 {
+    font-size: 25px;
+  }
+
+  .leftSection .card {
+    width: 80%;
+  }
+}
