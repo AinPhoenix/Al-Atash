@@ -13,9 +13,10 @@ const Intro = () => {
           Estimation & Management
         </div>
         <div className={classes.childp} style={{}}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium purus eros, ut bibendum est
-          pharetra nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut consectetur massa sit amet
-          velit commodo, vel sodales enim laoreet.
+          Al Atash Building Estimation was established under the umbrella of Al Atash Group with its various other
+          sub-companies working in a diverse market. The company offers financial consultancy for future construction of
+          residential and commercial buildings, landscapes, parks, societies, industries, HVAC installation, designing,
+          and all kinds of other infrastructures.
         </div>
         {/* <div className={classes.imgalign} style={{}}>
               <a href="" >
