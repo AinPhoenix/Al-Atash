@@ -67,7 +67,7 @@ const EstimationManagementProject = () => {
       </div>
 
       {/* SLider */}
-      <div style={{ padding: '6vh' }}>
+      <div className={classes.sliders} style={{}}>
         <Swiper slidesPerView="auto" style={{ overflowY: 'hidden', padding: '0 30px 0' }} className={`mySwiper`}>
           {automateslider()}
         </Swiper>
@@ -75,182 +75,101 @@ const EstimationManagementProject = () => {
       <div style={{ padding: '3vh' }}></div>
 
       {/* box */}
-      <div
-        style={{
-          display: 'flex',
-          padding: '10vh  15vh',
-          flexDirection: 'row',
-          justifyContent: 'space-around',
-          color: '#FFFFFF',
-          width: '100%',
-          height: '50vh',
-          background: '#191D19 0% 0% no-repeat padding-box',
-          width: '100%',
-          overflowY: 'hidden',
-        }}
-      >
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <div
-              style={{
-                borderRadius: '2vh',
-                border: '5px solid white',
-                padding: '17px',
-                margin: 'auto',
-                textAlign: 'center',
-              }}
-            >
+      <div className={classes.boxmain} style={{}}>
+        <div className={classes.box2} style={{}}>
+          <div className={classes.box3}>
+            <div className={classes.box4}>
               <i class="fa fa-list" aria-hidden="true"></i>
             </div>
-            <div style={{ marginLeft: '2vh', width: '30vh' }}>
-              <div style={{ fontSize: '28px' }}>Project Name</div>
-              <div style={{ fontSize: '20px' }}>{data.projectName}</div>
+            <div className={classes.boxdata}>
+              <div className={classes.boxfont1} style={{}}>
+                Project Name
+              </div>
+              <div className={classes.boxfont2} style={{}}>
+                {data.projectName}
+              </div>
             </div>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <div
-              style={{
-                borderRadius: '2vh',
-                border: '5px solid white',
-                padding: '17px',
-                margin: 'auto',
-                textAlign: 'center',
-              }}
-            >
+          <div className={classes.box3}>
+            <div className={classes.box4}>
               <i class="fa fa-list" aria-hidden="true"></i>
             </div>
-            <div style={{ marginLeft: '2vh', width: '30vh' }}>
-              <div style={{ fontSize: '28px' }}>Client</div>
-              <div style={{ fontSize: '20px' }}>{data.client}</div>
+            <div className={classes.boxdata}>
+              <div className={classes.boxfont1}>Client</div>
+              <div className={classes.boxfont2}>{data.client}</div>
             </div>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <div
-              style={{
-                borderRadius: '2vh',
-                border: '5px solid white',
-                padding: '17px',
-                margin: 'auto',
-                textAlign: 'center',
-              }}
-            >
+          <div className={classes.box3}>
+            <div className={classes.box4}>
               <i class="fa fa-list" aria-hidden="true"></i>
             </div>
-            <div style={{ marginLeft: '2vh', width: '30vh' }}>
-              <div style={{ fontSize: '28px' }}>Location</div>
-              <div style={{ fontSize: '20px' }}>{data.siteLocation}</div>
+            <div className={classes.boxdata}>
+              <div className={classes.boxfont1}>Location</div>
+              <div className={classes.boxfont2}>{data.siteLocation}</div>
             </div>
           </div>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <div
-              style={{
-                borderRadius: '2vh',
-                border: '5px solid white',
-                padding: '17px',
-                margin: 'auto',
-                textAlign: 'center',
-              }}
-            >
+        <div className={classes.box2} style={{}}>
+          <div className={classes.box3}>
+            <div className={classes.box4}>
               <i class="fa fa-building" aria-hidden="true"></i>
             </div>
-            <div style={{ marginLeft: '2vh', width: '30vh' }}>
-              <div style={{ fontSize: '28px' }}>Project</div>
-              <div style={{ fontSize: '20px' }}>{data.project}</div>
+            <div className={classes.boxdata}>
+              <div className={classes.boxfont1}>Project</div>
+              <div className={classes.boxfont2}>{data.project}</div>
             </div>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <div
-              style={{
-                borderRadius: '2vh',
-                border: '5px solid white',
-                padding: '17px',
-                margin: 'auto',
-                textAlign: 'center',
-              }}
-            >
+          <div className={classes.box3}>
+            <div className={classes.box4}>
               <i class="fa fa-list" aria-hidden="true"></i>
             </div>
-            <div style={{ marginLeft: '2vh', width: '30vh' }}>
-              <div style={{ fontSize: '28px' }}>Work</div>
-              <div style={{ fontSize: '20px' }}>{data.work}</div>
+            <div className={classes.boxdata}>
+              <div className={classes.boxfont1}>Work</div>
+              <div className={classes.boxfont2}>{data.work}</div>
             </div>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <div
-              style={{
-                borderRadius: '2vh',
-                border: '5px solid white',
-                padding: '17px',
-                margin: 'auto',
-                textAlign: 'center',
-              }}
-            >
+          <div className={classes.box3}>
+            <div className={classes.box4}>
               <i class="fa fa-list" aria-hidden="true"></i>
             </div>
-            <div style={{ marginLeft: '2vh', width: '30vh' }}>
-              <div style={{ fontSize: '28px' }}>Work Title</div>
-              <div style={{ fontSize: '20px' }}>{data.workTitle}</div>
+            <div className={classes.boxdata}>
+              <div className={classes.boxfont1}>Work Title</div>
+              <div className={classes.boxfont2}>{data.workTitle}</div>
             </div>
           </div>
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <div
-              style={{
-                borderRadius: '2vh',
-                border: '5px solid white',
-                padding: '17px',
-                margin: 'auto',
-                textAlign: 'center',
-              }}
-            >
+        <div className={classes.box2} style={{}}>
+          <div className={classes.box3}>
+            <div className={classes.box4}>
               <i class="fa fa-list" aria-hidden="true"></i>
             </div>
-            <div style={{ marginLeft: '2vh', width: '20vh' }}>
-              <div style={{ fontSize: '28px' }}>Unit</div>
-              <div style={{ fontSize: '20px' }}>{data.unit}</div>
+            <div className={classes.boxdata1} style={{}}>
+              <div className={classes.boxfont1}>Unit</div>
+              <div className={classes.boxfont2}>{data.unit}</div>
             </div>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <div
-              style={{
-                borderRadius: '2vh',
-                border: '5px solid white',
-                padding: '17px',
-                margin: 'auto',
-                textAlign: 'center',
-              }}
-            >
+          <div className={classes.box3}>
+            <div className={classes.box4}>
               <i class="fa fa-list" aria-hidden="true"></i>
             </div>
-            <div style={{ marginLeft: '2vh', width: '20vh' }}>
-              <div style={{ fontSize: '28px' }}>Project Type</div>
-              <div style={{ fontSize: '20px' }}>{data.projectType}</div>
+            <div className={classes.boxdata1}>
+              <div className={classes.boxfont1}>Project Type</div>
+              <div className={classes.boxfont2}>{data.projectType}</div>
             </div>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'row' }}>
-            <div
-              style={{
-                borderRadius: '2vh',
-                border: '5px solid white',
-                padding: '17px',
-                margin: 'auto',
-                textAlign: 'center',
-              }}
-            >
+          <div className={classes.box3}>
+            <div className={classes.box4}>
               <i style={{}} class="fa fa-list" aria-hidden="true"></i>
             </div>
-            <div style={{ marginLeft: '2vh', width: '20vh' }}>
-              <div style={{ fontSize: '28px' }}>Building</div>
-              <div style={{ fontSize: '20px' }}>{data.buildingArea}</div>
+            <div className={classes.boxdata1}>
+              <div className={classes.boxfont1}>Building</div>
+              <div className={classes.boxfont2}>{data.buildingArea}</div>
             </div>
           </div>
         </div>
