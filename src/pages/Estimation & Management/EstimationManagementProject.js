@@ -93,7 +93,7 @@ const EstimationManagementProject = () => {
 
           <div className={classes.box3}>
             <div className={classes.box4}>
-              <i class="fa fa-list" aria-hidden="true"></i>
+              <i class="fas fa-user-check"></i>
             </div>
             <div className={classes.boxdata}>
               <div className={classes.boxfont1}>Client</div>
@@ -103,7 +103,7 @@ const EstimationManagementProject = () => {
 
           <div className={classes.box3}>
             <div className={classes.box4}>
-              <i class="fa fa-list" aria-hidden="true"></i>
+              <i class="far fa-map"></i>
             </div>
             <div className={classes.boxdata}>
               <div className={classes.boxfont1}>Location</div>
@@ -114,7 +114,7 @@ const EstimationManagementProject = () => {
         <div className={classes.box2} style={{}}>
           <div className={classes.box3}>
             <div className={classes.box4}>
-              <i class="fa fa-building" aria-hidden="true"></i>
+              <i class="fas fa-project-diagram"></i>
             </div>
             <div className={classes.boxdata}>
               <div className={classes.boxfont1}>Project</div>
@@ -124,7 +124,7 @@ const EstimationManagementProject = () => {
 
           <div className={classes.box3}>
             <div className={classes.box4}>
-              <i class="fa fa-list" aria-hidden="true"></i>
+              <i class="fas fa-briefcase"></i>
             </div>
             <div className={classes.boxdata}>
               <div className={classes.boxfont1}>Work</div>
@@ -133,7 +133,7 @@ const EstimationManagementProject = () => {
           </div>
           <div className={classes.box3}>
             <div className={classes.box4}>
-              <i class="fa fa-list" aria-hidden="true"></i>
+              <i class="fas fa-file-signature"></i>
             </div>
             <div className={classes.boxdata}>
               <div className={classes.boxfont1}>Work Title</div>
@@ -145,7 +145,7 @@ const EstimationManagementProject = () => {
         <div className={classes.box2} style={{}}>
           <div className={classes.box3}>
             <div className={classes.box4}>
-              <i class="fa fa-list" aria-hidden="true"></i>
+              <i class="fas fa-thumbtack"></i>
             </div>
             <div className={classes.boxdata1} style={{}}>
               <div className={classes.boxfont1}>Unit</div>
@@ -155,7 +155,7 @@ const EstimationManagementProject = () => {
 
           <div className={classes.box3}>
             <div className={classes.box4}>
-              <i class="fa fa-list" aria-hidden="true"></i>
+              <i class="fas fa-industry"></i>
             </div>
             <div className={classes.boxdata1}>
               <div className={classes.boxfont1}>Project Type</div>
@@ -165,7 +165,7 @@ const EstimationManagementProject = () => {
 
           <div className={classes.box3}>
             <div className={classes.box4}>
-              <i style={{}} class="fa fa-list" aria-hidden="true"></i>
+              <i class="fas fa-city"></i>
             </div>
             <div className={classes.boxdata1}>
               <div className={classes.boxfont1}>Building</div>

@@ -10,7 +10,7 @@ const UpperSection = ({ title, price, pictures }) => {
       <div className={classes.leftSection}>
         <div className={classes.card}>
           <div className={classes.icons}>
-            <i class="fas fa-building"></i>
+            <i class="fas fa-house-damage"></i>
           </div>
           <div className={classes.title}>Residential Projects</div>
         </div>
@@ -22,25 +22,25 @@ const UpperSection = ({ title, price, pictures }) => {
         </div>
         <div className={classes.card}>
           <div className={classes.icons}>
-            <i class="fas fa-building"></i>
+            <i class="fas fa-hammer"></i>
           </div>
           <div className={classes.title}>Infrastructure Projects</div>
         </div>
         <div className={classes.card}>
           <div className={classes.icons}>
-            <i class="fas fa-building"></i>
+            <i class="fas fa-road"></i>
           </div>
           <div className={classes.title}>Road + Bridge Projects</div>
         </div>
         <div className={classes.card}>
           <div className={classes.icons}>
-            <i class="fas fa-building"></i>
+            <i class="fas fa-mountain"></i>
           </div>
           <div className={classes.title}>Landscape Projects</div>
         </div>
         <div className={classes.card}>
           <div className={classes.icons}>
-            <i class="fas fa-building"></i>
+            <i class="fas fa-landmark"></i>
           </div>
           <div className={classes.title}>Hvac</div>
         </div>
