@@ -14,19 +14,21 @@
 
 .automateslider {
   box-shadow: 0px 3px 6px #0000005e;
+  border: 2px solid #0000005e;
   width: 350px;
   height: auto;
 }
 
 .automateslider1 {
   margin-left: 3vh;
+  border: 2px solid #0000005e;
   box-shadow: 0px 3px 6px #0000005e;
   width: 350px;
   height: auto;
 }
 
 .automatesliderimg {
-  width: 350px;
+  width: 340px;
   height: auto;
 }
 
