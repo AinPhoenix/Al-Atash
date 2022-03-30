@@ -15,7 +15,7 @@ const ServicesCard = ({ id, img, cmpTitle }) => {
         </div>
         <div>
           {/* <a href={Link} className={classes.btn} style={{}}></a> */}
-          <Link to={`/estimationManagement/services/${id}`} className={classes.btn}>
+          <Link to={`/EstimationManagement/services/${id}`} className={classes.btn}>
             View Details
           </Link>
         </div>

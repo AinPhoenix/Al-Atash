@@ -16,7 +16,7 @@ const ProjectsCard = ({ id, img, cmpTitle, secTitle }) => {
           {secTitle}
         </div>
         <div>
-          <Link to={`/estimationManagement/projects/${id}`} className={classes.btn}>
+          <Link to={`/EstimationManagement/projects/${id}`} className={classes.btn}>
             View Details
           </Link>
         </div>

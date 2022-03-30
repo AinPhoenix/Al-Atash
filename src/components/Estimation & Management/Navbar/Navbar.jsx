@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import MainLogo from "./../../../images/Estimation & Management/Estimation & Management.png";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import MainLogo from './../../../images/Estimation & Management/Estimation & Management.png';
 
-import classes from "./Navbar.module.css";
+import classes from './Navbar.module.css';
 
 const Navbar = (props) => {
   const [navMobile, setNavMobile] = useState(false);
@@ -20,29 +20,20 @@ const Navbar = (props) => {
             <i class="fas fa-times"></i>
           </div>
           <div class={classes.overlayContent}>
-            <Link to="/estimationManagement" className={`nav-item nav-link m-3  ${props.Home}`}>
+            <Link to="/EstimationManagement" className={`nav-item nav-link m-3  ${props.Home}`}>
               Home
             </Link>
-            <Link
-              to="/estimationManagement/about"
-              className={`nav-item nav-link m-3  ${props.About}`}
-            >
+            <Link to="/EstimationManagement/about" className={`nav-item nav-link m-3  ${props.About}`}>
               About
             </Link>
 
-            <Link
-              to="/estimationManagement/services"
-              className={`nav-item nav-link m-3  ${props.Contact}`}
-            >
+            <Link to="/EstimationManagement/services" className={`nav-item nav-link m-3  ${props.Contact}`}>
               Services
             </Link>
-            <Link to="/estimationManagement/projects" className={`nav-item nav-link m-3  ${props.Team}`}>
+            <Link to="/EstimationManagement/projects" className={`nav-item nav-link m-3  ${props.Team}`}>
               Projects
             </Link>
-            <Link
-              to="/estimationManagement/team"
-              className={`nav-item nav-link m-3  ${props.Events}`}
-            >
+            <Link to="/EstimationManagement/team" className={`nav-item nav-link m-3  ${props.Events}`}>
               Team
             </Link>
           </div>
@@ -55,44 +46,44 @@ const Navbar = (props) => {
     <nav
       className="navbar navbar-expand-lg border-bottom"
       style={{
-        backgroundColor: "#F6F5F5",
-        boxShadow: "16%",
+        backgroundColor: '#F6F5F5',
+        boxShadow: '16%',
         padding: 0,
-        boxShadow: "0 0 0.5rem 0 rgb(0 0 0 / 20%)",
+        boxShadow: '0 0 0.5rem 0 rgb(0 0 0 / 20%)',
       }}
     >
       <div className="container">
         <a href="#" className="navbar-brand">
-          <img src={MainLogo} style={{ width: "auto" , height:"60px"}} />
+          <img src={MainLogo} style={{ width: 'auto', height: '60px' }} />
         </a>
         <div className={`navbar-nav ms-auto ${classes.webLink}`}>
           <Link
-            to="/estimationManagement"
+            to="/EstimationManagement"
             className={`nav-item nav-link m-3 ${classes.linkColor} ${props.EstimationManagementHome}`}
           >
             Home
           </Link>
           <Link
-            to="/estimationManagement/about"
+            to="/EstimationManagement/about"
             className={`nav-item nav-link m-3 ${classes.linkColor} ${props.EstimationManagementAbout}`}
           >
             About
           </Link>
 
           <Link
-            to="/estimationManagement/services"
+            to="/EstimationManagement/services"
             className={`nav-item nav-link m-3 ${classes.linkColor} ${props.Contact}`}
           >
             Services
           </Link>
           <Link
-            to="/estimationManagement/projects"
+            to="/EstimationManagement/projects"
             className={`nav-item nav-link m-3 ${classes.linkColor} ${props.Team}`}
           >
             Projects
           </Link>
           <Link
-            to="/estimationManagement/team"
+            to="/EstimationManagement/team"
             className={`nav-item nav-link m-3 ${classes.linkColor} ${props.Events}`}
           >
             Team

@@ -2,8 +2,10 @@ import React from 'react';
 import TeamData from './../../../data/TeamData';
 import TeamCard from '../../Main/Cards/TeamCard';
 import TitleComponent from '../Extras/Title Component/TitleComponent';
+import TeamFunction from '../../../functions/Team/TeamFunction';
+
 const Teams = () => {
-  const AllGroups = TeamData();
+  const AllGroups = TeamFunction.fetchCustomeTeam('Estimation & Management');
 
   const allCards = AllGroups.map((card) => (
     <TeamCard

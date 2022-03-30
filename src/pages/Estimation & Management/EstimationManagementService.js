@@ -1,10 +1,9 @@
 import React from 'react';
-import GlobalStyles from './slider/GlobalStyles';
-import ImageSlider from './slider/ImageSlider';
-import styled from 'styled-components';
 import { useParams } from 'react-router-dom';
 import ServicesFunction from '../../functions/Estimation & Management/ServicesFunction';
-import pic from '../../images/Estimation & Management/Services/01-Turnkey Sheet/01.02-Before Construction (Trunkey Sheet).jpg';
+import UpperSection from '../../components/Estimation & Management/Service/UpperSection';
+import LowerSection from '../../components/Estimation & Management/Service/LowerSection';
+
 const EstimationManagementService = () => {
   let { serviceId } = useParams();
   let data = ServicesFunction.fetchService(+serviceId);
@@ -21,7 +20,7 @@ const EstimationManagementService = () => {
 
   return (
     <div>
-      <GlobalStyles />
+      {/* <GlobalStyles />
 
       <div>
         <ImageSlider style={{ height: '65Vh' }} images={data.pictures}></ImageSlider>
@@ -31,7 +30,10 @@ const EstimationManagementService = () => {
         <div style={{ fontSize: '60px' }}>{data.name}</div>
         <div style={{ fontSize: '40px' }}>Labour + Material</div>
         {priceComp()}
-      </div>
+      </div> */}
+
+      <UpperSection title={data.name} price={data.price} pictures={data.pictures} />
+      <LowerSection />
     </div>
   );
 };

@@ -15,11 +15,12 @@ const About = () => {
         }}
       >
         <div className={classes.child}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti ea deserunt dolorum corporis quas minima
-          vel, fugiat qui eligendi similique inventore numquam tenetur dicta dolor nostrum quae, reprehenderit, harum
-          doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nobis quis. Quas sapiente
-          velit nulla magnam, repellendus voluptatum dolorum quibusdam, ipsum culpa non est eaque necessitatibus, id
-          quia dolorem! Quae.
+          Al Atash Building Estimation is a specialized company that provides complete financial consultancy and
+          analysis for the construction, design, landscaping, architecture, and all other parameters involved in the
+          formation of residential and commercial buildings, societies, plazas, and more. With the experience of more
+          than 10 years, we have been working tremendously on the efficient provision of financial analysis to clients
+          before they even start their construction procedure. For this purpose, we have hired professional management
+          and expert staff.
         </div>
       </div>
     </div>

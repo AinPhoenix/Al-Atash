@@ -40,7 +40,7 @@ const GroupsData = () => {
       title: 'Al-Atash',
       secondTitle: 'Estimation & Management',
       img: EstimationManagement,
-      Link: '/estimationManagement',
+      Link: '/EstimationManagement',
     },
     {
       key: 5,

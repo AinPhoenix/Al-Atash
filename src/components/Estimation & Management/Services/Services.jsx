@@ -13,42 +13,42 @@ import TitleComponent from '../Extras/Title Component/TitleComponent';
 
 const InteriorTitle = 'Interior';
 const InteriorText =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium purus eros, ut bibendum est pharetra nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut consectetur massa sit amet velit commodo, vel sodales enim laoreet.';
+  'We have the expertise of helping you design the most beautiful and extra ordinary housing interiors. With the combined expertise of our team of our team, we estimate interior design and renovation costs for you.';
 const Interiorlink = '/estimationManagement/services';
 
 const ExteriorTitle = 'Exterior';
 const ExteriorText =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium purus eros, ut bibendum est pharetra nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut consectetur massa sit amet velit commodo, vel sodales enim laoreet.';
+  'We have the expertise of helping you design the most beautiful and extra ordinary housing interiors. With the combined expertise of our team of our team, we estimate exterior design and renovation costs for you.';
 const Exteriorlink = '/estimationManagement/services';
 
 const CommercialBuildingTitle = 'Commercial Buildings';
 const CommercialBuildingText =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium purus eros, ut bibendum est pharetra nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut consectetur massa sit amet velit commodo, vel sodales enim laoreet.';
+  'Commercial Building estimation also involves monitoring and analysis at each stage of construction. The steps are Before Construction Estimation, Frame Structure Estimation, Grey Structure Estimation, Finishing Estimation and Furnish Estimation.';
 const CommercialBuildinglink = '/estimationManagement/services';
 
 const ResidentialBuildingTitle = 'Residential Buildings';
 const ResidentialBuildingText =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium purus eros, ut bibendum est pharetra nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut consectetur massa sit amet velit commodo, vel sodales enim laoreet.';
+  'We provide expert residential building estimation. The analysis process involves various steps that are crucial for an error-free output. The steps are Before Construction Estimation, Frame Structure Estimation, Grey Structure Estimation, Finishing Estimation and Furnish Estimation.';
 const ResidentialBuildinglink = '/estimationManagement/services';
 
 const InfrastructureTitle = 'Infrastructure';
 const InfrastructureText =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium purus eros, ut bibendum est pharetra nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut consectetur massa sit amet velit commodo, vel sodales enim laoreet.';
+  'Our expertise in this sector revolves around catering accurate and detailed plans with premium project management. Our services are carried out by professional planners and experienced workmen to deliver quality end-results. We provide Road Works, Electrical Work, Sewerage Works, Water Works, Security System, Main Gate and Sign Board Works. ';
 const Infrastructurelink = '/estimationManagement/services';
 
 const RoadsHighwaysTitle = 'Roads/Highways';
 const RoadsHighwaysText =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium purus eros, ut bibendum est pharetra nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut consectetur massa sit amet velit commodo, vel sodales enim laoreet.';
+  'We provide expert insight for longitudinal and cross-sectional area of the roads. From materials, machinery, to final execution, we take care of each and every financial detail the earthwork requires including the consideration of floods, gradient, height of bank, depth of cutting, etc. ';
 const RoadsHighwayslink = '/estimationManagement/services';
 
 const LandscapeParkTitle = 'Landscape & Park';
 const LandscapeParkText =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium purus eros, ut bibendum est pharetra nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut consectetur massa sit amet velit commodo, vel sodales enim laoreet.';
+  'We have hired the best landscape estimators for you. Their job is to collect the data of required materials and all items that would be involved in the execution of the project. ';
 const LandscapeParklink = '/estimationManagement/services';
 
 const HVACTitle = 'HVAC';
 const HVACText =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium purus eros, ut bibendum est pharetra nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut consectetur massa sit amet velit commodo, vel sodales enim laoreet.';
+  'Our HVAC specialists provide a deep insight of heating, ventilation, and air conditioning projects. These involve the cost of material, labor, and varies with respect to clients needs.';
 const HVAClink = '/estimationManagement/services';
 
 const Services = () => {
