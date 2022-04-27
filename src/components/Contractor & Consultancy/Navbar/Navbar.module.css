@@ -1,0 +1,40 @@
+/* Normal */
+.screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 25%;
+  text-align: center;
+}
+
+.logo img {
+  width: 125px;
+}
+
+.navBox {
+  flex: 1;
+}
+
+.navBox .companyName {
+  text-align: center;
+  font-size: 15px;
+}
+
+.mobileNav {
+  width: 25%;
+}
+
+/* Laptop */
+@media only screen and (max-width: 992px) {
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+}
