@@ -51,6 +51,38 @@
   display: none;
 }
 
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+.cross {
+  font-size: 30px;
+  margin: 30px 0 0 35px;
+}
+
+.overlayLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+}
+
+.overlayNavLink {
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
 /* Laptop */
 @media only screen and (max-width: 992px) {
   .logo {
@@ -83,37 +115,6 @@
   .navButton {
     display: block;
     font-size: 25px;
-  }
-
-  .overlay {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    color: white;
-    overflow-x: hidden;
-  }
-
-  .cross {
-    font-size: 30px;
-    margin: 30px 0 0 35px;
-  }
-
-  .overlayLinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-
-  .overlayNavLink {
-    padding: 10px;
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
   }
 }
 
