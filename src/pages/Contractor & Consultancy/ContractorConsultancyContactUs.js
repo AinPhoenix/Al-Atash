@@ -1,7 +1,8 @@
 import React from 'react';
+import ContactUs from '../../components/Contractor & Consultancy/ContactUs/ContactUs';
 
 const ContractorConsultancyContactUs = () => {
-  return <div>ContractorConsultancyContactUs</div>;
+  return <ContactUs />;
 };
 
 export default ContractorConsultancyContactUs;

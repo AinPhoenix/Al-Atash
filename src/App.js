@@ -35,7 +35,7 @@ import ContractorConsultancyPackages from './pages/Contractor & Consultancy/Cont
 import ContractorConsultancyInvestWithUs from './pages/Contractor & Consultancy/ContractorConsultancyInvestWithUs';
 import ContractorConsultancyContactUs from './pages/Contractor & Consultancy/ContractorConsultancyContactUs';
 import ContractorConsultancyAbout from './pages/Contractor & Consultancy/ContractorConsultancyAbout';
-import { Suspense } from 'react/cjs/react.production.min';
+import { Suspense } from 'react';
 import ContractorConsultancyLoader from './pages/Contractor & Consultancy/ContractorConsultancyLoader';
 
 const ContractorConsultancyMain = React.lazy(() =>
