@@ -23,7 +23,7 @@ import EstimationManagementService from './pages/Estimation & Management/Estimat
 import EstimationManagementProject from './pages/Estimation & Management/EstimationManagementProject';
 
 // ----- Contractor & Consultancy -----
-import ContractorConsultancyMain from './pages/Contractor & Consultancy/ContractorConsultancyMain';
+// import ContractorConsultancyMain from './pages/Contractor & Consultancy/ContractorConsultancyMain';
 import ContractorConsultancyHome from './pages/Contractor & Consultancy/ContractorConsultancyHome';
 import ContractorConsultancyOurVision from './pages/Contractor & Consultancy/ContractorConsultancyOurVision';
 import ContractorConsultancyOurCoreValues from './pages/Contractor & Consultancy/ContractorConsultancyOurCoreValues';
@@ -35,6 +35,12 @@ import ContractorConsultancyPackages from './pages/Contractor & Consultancy/Cont
 import ContractorConsultancyInvestWithUs from './pages/Contractor & Consultancy/ContractorConsultancyInvestWithUs';
 import ContractorConsultancyContactUs from './pages/Contractor & Consultancy/ContractorConsultancyContactUs';
 import ContractorConsultancyAbout from './pages/Contractor & Consultancy/ContractorConsultancyAbout';
+import { Suspense } from 'react/cjs/react.production.min';
+import ContractorConsultancyLoader from './pages/Contractor & Consultancy/ContractorConsultancyLoader';
+
+const ContractorConsultancyMain = React.lazy(() =>
+  import('./pages/Contractor & Consultancy/ContractorConsultancyMain')
+);
 
 const App = () => {
   return (
@@ -67,7 +73,14 @@ const App = () => {
         </Route>
 
         {/* Contractor & Consultancy */}
-        <Route path="/ContractorConsultancy" element={<ContractorConsultancyMain />}>
+        <Route
+          path="/ContractorConsultancy"
+          element={
+            <Suspense fallback={<ContractorConsultancyLoader />}>
+              <ContractorConsultancyMain />
+            </Suspense>
+          }
+        >
           <Route index={true} path="" element={<ContractorConsultancyHome />} />
           <Route path="About" element={<ContractorConsultancyAbout />} />
           <Route path="OurVision" element={<ContractorConsultancyOurVision />} />
