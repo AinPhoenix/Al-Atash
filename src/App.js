@@ -34,6 +34,7 @@ import ContractorConsultancyBrochures from './pages/Contractor & Consultancy/Con
 import ContractorConsultancyPackages from './pages/Contractor & Consultancy/ContractorConsultancyPackages';
 import ContractorConsultancyInvestWithUs from './pages/Contractor & Consultancy/ContractorConsultancyInvestWithUs';
 import ContractorConsultancyContactUs from './pages/Contractor & Consultancy/ContractorConsultancyContactUs';
+import ContractorConsultancyAbout from './pages/Contractor & Consultancy/ContractorConsultancyAbout';
 
 const App = () => {
   return (
@@ -68,6 +69,7 @@ const App = () => {
         {/* Contractor & Consultancy */}
         <Route path="/ContractorConsultancy" element={<ContractorConsultancyMain />}>
           <Route index={true} path="" element={<ContractorConsultancyHome />} />
+          <Route path="About" element={<ContractorConsultancyAbout />} />
           <Route path="OurVision" element={<ContractorConsultancyOurVision />} />
           <Route path="OurValues" element={<ContractorConsultancyOurCoreValues />} />
           <Route path="Services" element={<ContractorConsultancyServices />} />
