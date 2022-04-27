@@ -47,7 +47,7 @@ const GroupsData = () => {
       title: 'Al-Atash',
       secondTitle: 'Contractor & Consultancy',
       img: ContractorConsultancy,
-      Link: '/UnderConstruction',
+      Link: '/ContractorConsultancy',
     },
     {
       key: 6,

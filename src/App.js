@@ -22,6 +22,19 @@ import EstimationManagementTeam from './pages/Estimation & Management/Estimation
 import EstimationManagementService from './pages/Estimation & Management/EstimationManagementService';
 import EstimationManagementProject from './pages/Estimation & Management/EstimationManagementProject';
 
+// ----- Contractor & Consultancy -----
+import ContractorConsultancyMain from './pages/Contractor & Consultancy/ContractorConsultancyMain';
+import ContractorConsultancyHome from './pages/Contractor & Consultancy/ContractorConsultancyHome';
+import ContractorConsultancyOurVision from './pages/Contractor & Consultancy/ContractorConsultancyOurVision';
+import ContractorConsultancyOurCoreValues from './pages/Contractor & Consultancy/ContractorConsultancyOurCoreValues';
+import ContractorConsultancyServices from './pages/Contractor & Consultancy/ContractorConsultancyServices';
+import ContractorConsultancyService from './pages/Contractor & Consultancy/ContractorConsultancyService';
+import ContractorConsultancyOurProjects from './pages/Contractor & Consultancy/ContractorConsultancyOurProjects';
+import ContractorConsultancyBrochures from './pages/Contractor & Consultancy/ContractorConsultancyBrochures';
+import ContractorConsultancyPackages from './pages/Contractor & Consultancy/ContractorConsultancyPackages';
+import ContractorConsultancyInvestWithUs from './pages/Contractor & Consultancy/ContractorConsultancyInvestWithUs';
+import ContractorConsultancyContactUs from './pages/Contractor & Consultancy/ContractorConsultancyContactUs';
+
 const App = () => {
   return (
     <Fragment>
@@ -50,6 +63,20 @@ const App = () => {
           <Route path="team" element={<EstimationManagementTeam />} />
           <Route path="services/:serviceId" element={<EstimationManagementService />} />
           <Route path="projects/:projectId" element={<EstimationManagementProject />} />
+        </Route>
+
+        {/* Contractor & Consultancy */}
+        <Route path="/ContractorConsultancy" element={<ContractorConsultancyMain />}>
+          <Route index={true} path="" element={<ContractorConsultancyHome />} />
+          <Route path="OurVision" element={<ContractorConsultancyOurVision />} />
+          <Route path="OurValues" element={<ContractorConsultancyOurCoreValues />} />
+          <Route path="Services" element={<ContractorConsultancyServices />} />
+          <Route path="Services/:serviceId" element={<ContractorConsultancyService />} />
+          <Route path="Projects" element={<ContractorConsultancyOurProjects />} />
+          <Route path="Brochures" element={<ContractorConsultancyBrochures />} />
+          <Route path="Packages" element={<ContractorConsultancyPackages />} />
+          <Route path="Invest" element={<ContractorConsultancyInvestWithUs />} />
+          <Route path="Contact" element={<ContractorConsultancyContactUs />} />
         </Route>
       </Routes>
     </Fragment>
