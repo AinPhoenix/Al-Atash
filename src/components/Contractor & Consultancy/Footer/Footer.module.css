@@ -1,0 +1,53 @@
+/* Normal */
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 25px;
+}
+
+.companyName {
+  font-size: 35px;
+  color: white;
+}
+
+.socialLinks {
+  display: flex;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+.socialLink {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.copyrights p {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+/* Laptop */
+@media only screen and (max-width: 992px) {
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .copyrights p {
+    font-size: 20px;
+  }
+}
