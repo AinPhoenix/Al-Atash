@@ -1,0 +1,86 @@
+.parent{
+    display:flex;
+    flex-direction:column;
+    width:280px;
+    height:300px;
+}
+
+.parent div{
+    position:relative;
+    width: 280px; 
+    height: 270px;
+    border-radius: 7px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.parent a{
+    margin-left:30px;
+    margin-top:245px;
+    width:220px;
+    padding:13px 0;
+    position:absolute;
+    text-align:center;
+    font-size:auto;
+    color:#FFFFFF;
+    text-decoration:none;
+    box-shadow: 0px 3px 6px #00000040;
+    border-radius: 15px;
+    background:linear-gradient(to bottom right, #FBCD38,#FCBB5B);
+}
+
+/* Laptop */
+@media only screen and (max-width: 992px) {
+    .parent{
+        width:260px;
+        height:300px;
+    }
+    
+    .parent div{
+        width: 260px; 
+        height: 270px;
+    }
+    
+    .parent a{
+        width:200px;
+        padding:13px 0;
+    } 
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+    .parent{
+        width:240px;
+        height:280px;
+    }
+    
+    .parent div{
+        width: 240px; 
+        height: 260px;
+    }
+    
+    .parent a{
+        margin-top:235px;
+        width:180px;
+        padding:13px 0;
+
+    } 
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .parent{
+        width:210px;
+    }
+    
+    .parent div{
+        width: 210px; 
+    }
+    
+    .parent a{
+        width:150px;
+        padding:13px 0;
+
+    } 
+}
