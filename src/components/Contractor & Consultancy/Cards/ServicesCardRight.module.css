@@ -42,7 +42,7 @@
     font-size:15px;
 }
 
-.child2text a{
+.btn{
     padding:6px 15px;
     font-size:15px;
     color:#FFFFFF;
@@ -59,7 +59,7 @@
         font-size:12px;
     }
     
-    .child2text a{
+    .btn{
         font-size:12px;
         padding:5px 12px;
     }
@@ -76,7 +76,7 @@
         margin-bottom: 1px;
     }
     
-    .child2text a{
+    .btn{
         font-size:11px;
         padding:5px 12px;
     }
@@ -85,15 +85,15 @@
 /* Mobile */
 @media only screen and (max-width: 600px) {
     .child2text h1{
-        font-size:12px;
+        font-size:15px;
     }
     .child2text p{
-        font-size:8px;
+        font-size:11px;
         margin-bottom: 1px;
     }
 
-    .child2text a{
-        font-size:8px;
+    .btn{
+        font-size:11px;
         padding:3px 12px;
     }
 }

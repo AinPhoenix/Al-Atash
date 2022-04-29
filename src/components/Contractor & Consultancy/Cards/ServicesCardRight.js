@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './ServicesCardRight.module.css';
+import { Link } from 'react-router-dom';
 const ServicesCardRight = ({img,title,text,link}) => {
   return <div>
     <div className={classes.parentflex} style={{ }}>
@@ -10,7 +11,7 @@ const ServicesCardRight = ({img,title,text,link}) => {
         <div className={classes.child2text} style={{}}>
           <h1 style={{}}>{ title}</h1>
           <p style={{}}>{ text}</p>
-          <a href={link} style={{}}>View More</a>
+          <Link to={link} className={classes.btn}>View More</Link>
         </div>
       </div>
     </div>
