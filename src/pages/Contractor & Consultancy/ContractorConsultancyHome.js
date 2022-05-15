@@ -1,7 +1,7 @@
 import React from 'react';
-
+import ContractorConsultancyHomepage from '../../components/Contractor & Consultancy/Homepage/ContractorConsultancyHomepage';
 const ContractorConsultancyHome = () => {
-  return <div>ContractorConsultancyHome</div>;
+  return <ContractorConsultancyHomepage/>;
 };
 
 export default ContractorConsultancyHome;
