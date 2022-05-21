@@ -1,0 +1,206 @@
+.parent{
+    opacity:1;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background:#FFFFFF 0% 0% no-repeat padding-box;
+    height:auto;
+    width: 100%;
+}
+
+.imgbox{
+    display:block;
+    text-align:left;
+    max-width:50%;
+}
+
+.imgboximg{
+    max-height: auto;
+    max-width: 100%;
+}
+
+.child{
+    padding:0 5vh;
+    align-self:center;
+    text-align:justify;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+.childh1{
+    padding:1vh 0;
+    font: normal normal bold 40px/50px Calibri;
+    color: #3B393C;
+}
+
+.childp{
+    font: normal normal bold 20px/25px Calibri;
+    color: #545151;
+}
+
+.padding{
+    padding:6px;
+}
+
+.btnbox{
+    background: transparent linear-gradient(180deg, #FBCD38 0%, #FCBB5B 100%) 0% 0% no-repeat padding-box;
+    border-radius:15px;
+    text-align:center;
+    width: 180px;
+    padding:8px 10px;
+}
+
+.btn{
+    text-decoration:none;
+    font: normal normal bold 22px/28px Calibri;
+    color: #FFFFFF;
+}
+
+@media(max-width: 1821px){
+    .child{
+        padding: 04vh;
+    }
+}
+@media(max-width: 1357px){
+    .child{
+        padding: 2vh;
+    }
+    .btnbox{
+        padding: 5px 8px;
+    }
+    .btn{
+        font: normal normal bold 18px/22px Calibri;
+    }
+}
+@media(max-width: 1085px){
+  
+.childh1{
+    padding:1vh 0;
+    font: normal normal bold 30px/40px Calibri;
+    color: #3B393C;
+}
+
+.childp{
+    font: normal normal bold 20px/25px Calibri;
+    color: #545151;
+}
+}
+
+@media(max-width: 1085px){
+  
+    .childh1{
+        padding:1vh 0;
+        font: normal normal bold 30px/35px Calibri;
+    }
+    
+    .childp{
+        font: normal normal bold 17px/22px Calibri;
+    }
+}
+
+@media(max-width: 909px){
+  
+    .childh1{
+        padding:0.5vh 0;
+        font: normal normal bold 30px/35px Calibri;
+    }
+    .childp{
+        font: normal normal bold 16px/20px Calibri; 
+    }
+    .child{
+        padding: 2vh;
+    }
+    .btnbox{
+        width: 120px;
+        padding: 3px 6px;
+    }
+    .btn{
+        font: normal normal bold 12px/20px Calibri;
+    }
+    .padding{
+        padding: 4px;
+    }
+}
+
+@media(max-width: 788px){
+  .child{
+      position: absolute;
+      width: 100%;
+      max-height:auto;
+        padding: 15vh;
+
+  }
+  .childh1
+  {
+color:white;
+  }
+  .childp{
+color:white;
+  }
+  .imgbox{
+      max-width: 100%;
+  }
+  .imgboximg{
+      opacity: 1;
+
+      
+  }
+}
+
+@media(max-width: 700px){
+    .child{
+        padding:10vh;
+    }
+    .btnbox{
+        width: 100px;
+        padding: 2px 4px;
+    }
+    .btn{
+        font: normal normal bold 12px/15px Calibri;
+    }
+    .padding{
+        padding: 3px;
+    }
+}
+
+@media(max-width: 570px){
+    .child{
+        padding:5vh;
+    }
+}
+
+@media(max-width: 434px){
+  
+    .childh1{
+        padding:1vh 0;
+        font: normal normal bold 22px/25px Calibri;
+    }
+    
+    .childp{
+        font: normal normal bold 12px/15px Calibri;
+    }
+    .btnbox{
+        width: 80px;
+        padding: 1px 2px;
+    }
+    .btn{
+        font: normal normal bold 10px/12px Calibri;
+    }
+    .padding{
+        padding: 3px;
+    }
+}
+
+@media(max-width: 280px){
+  
+    .childh1{
+        padding:1vh 0;
+        font: normal normal bold 18px/22px Calibri;
+    }
+    
+    .childp{
+        font: normal normal bold 10px/12px Calibri;
+    }
+}

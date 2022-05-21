@@ -9,6 +9,7 @@ const ContractorConsultancyHomepage = () => {
     <Services />
     <br/>
     <Offers />  
+    <br/>
   </div>;
 };
 
