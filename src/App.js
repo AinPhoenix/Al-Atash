@@ -11,6 +11,7 @@ import UnderConstruction from './pages/UnderConstruction';
 import BuildEstimationApp from './pages/Build Estimation App/BuildEstimationApp';
 import Main from './pages/Buildgencies/Main';
 import ComingSoon from './pages/Buildgencies/ComingSoon';
+import { Suspense } from 'react';
 
 // ----- Estimation & Management -----
 import EstimationManagementMain from './pages/Estimation & Management/EstimationManagementMain';
@@ -35,7 +36,7 @@ import ContractorConsultancyPackages from './pages/Contractor & Consultancy/Cont
 import ContractorConsultancyInvestWithUs from './pages/Contractor & Consultancy/ContractorConsultancyInvestWithUs';
 import ContractorConsultancyContactUs from './pages/Contractor & Consultancy/ContractorConsultancyContactUs';
 import ContractorConsultancyAbout from './pages/Contractor & Consultancy/ContractorConsultancyAbout';
-import { Suspense } from 'react';
+import ContractorConsultancyOurProject from './pages/Contractor & Consultancy/ContractorConsultancyOurProject';
 import ContractorConsultancyLoader from './pages/Contractor & Consultancy/ContractorConsultancyLoader';
 
 const ContractorConsultancyMain = React.lazy(() =>
@@ -88,6 +89,7 @@ const App = () => {
           <Route path="Services" element={<ContractorConsultancyServices />} />
           <Route path="Services/:serviceId" element={<ContractorConsultancyService />} />
           <Route path="Projects" element={<ContractorConsultancyOurProjects />} />
+          <Route path="Projects/:projectId" element={<ContractorConsultancyOurProject />} />
           <Route path="Brochures" element={<ContractorConsultancyBrochures />} />
           <Route path="Packages" element={<ContractorConsultancyPackages />} />
           <Route path="Invest" element={<ContractorConsultancyInvestWithUs />} />
