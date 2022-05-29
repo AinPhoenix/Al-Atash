@@ -1,12 +1,12 @@
 import React from 'react';
-import classes from './OffersCard.module.css';
+import classes from './OffersCardproject.module.css';
 import { Link } from 'react-router-dom';
-const OffersCard = ({ id, img, text, link }) => {
+const OffersCardproject = ({ id, img, text }) => {
   return (
     <div>
       <div className={classes.parent} style={{}}>
         <div style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(${img})` }}></div>
-        <Link to={link} className={classes.btn}>
+        <Link to={`/ContractorConsultancy/projects/${id}`} className={classes.btn}>
           {text}
         </Link>
       </div>
@@ -14,4 +14,4 @@ const OffersCard = ({ id, img, text, link }) => {
   );
 };
 
-export default OffersCard;
+export default OffersCardproject;

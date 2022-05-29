@@ -6,7 +6,9 @@ import Service from './../../../../functions/Contractor & Consultancy/ServicesFu
 
 const WhatWeDo = () => {
   const AllGroups = Service.fetchAllService();
-  const allCards = AllGroups.map((card) => <OffersCard key={card.key} id={card.key} img={card.img} text="View More" />);
+  const allCards = AllGroups.map((card) => (
+    <OffersCard key={card.key} id={card.key} img={card.img} link={card.link} text={card.text} />
+  ));
 
   return (
     <div>
