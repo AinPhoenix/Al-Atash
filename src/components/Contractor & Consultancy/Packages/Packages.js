@@ -1,6 +1,6 @@
 import React from 'react';
 import exterior from '../../../images/Estimation & Management/ser/exterior.jpg';
-
+import PackagesCard from '../Cards/PackagesCard';
 export default function Packages() {
   return (
     <div>
@@ -18,6 +18,7 @@ export default function Packages() {
       </div>
 
       <br />
+      <PackagesCard />
     </div>
   );
 }
