@@ -1,33 +1,34 @@
 import React from 'react';
 import exterior from '../../../images/Estimation & Management/ser/exterior.jpg';
-import PackagesCard from '../Cards/PackagesCard';
-import PackagesData from '../../../data/Contractor & Consultancy/PackagesData';
+import BrochureCard from '../Cards/Brochures/BrochureCard';
+import BrochuresData from '../../../data/Contractor & Consultancy/BrochuresData';
 
-const AllGroups = PackagesData();
-const allCards = AllGroups.map((card) => (
-  <PackagesCard img={card.img} measure={card.measure} title={card.title} price={card.price} />
-));
+const AllGroups = BrochuresData();
+const allCards = AllGroups.map((card) => <BrochureCard img={card.img} title={card.text} />);
 
-export default function Packages() {
+function Brochures() {
   return (
     <div>
+      {' '}
       <div
         style={{
-          textAlign: 'center',
+          display: 'flex',
+          width: '100%',
+          height: '40vh',
+          padding: '3vh 0',
+          fontWeight: 'bold',
+          justifyContent: 'center',
+          alignItems: 'center',
+          fontSize: '10vh',
+          color: 'white',
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(${exterior})`,
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
-          fontSize: '9vh',
-          maxWidth: '100%',
-          color: 'white',
-          padding: '2vh',
         }}
       >
-        Packages
+        Brochures
       </div>
-
-      <br />
       <div
         style={{
           marginLeft: 'auto',
@@ -42,7 +43,8 @@ export default function Packages() {
       >
         {allCards}
       </div>
-      <br />
     </div>
   );
 }
+
+export default Brochures;
