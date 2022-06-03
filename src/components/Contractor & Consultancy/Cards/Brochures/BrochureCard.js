@@ -10,12 +10,12 @@ function BrochureCard(img, title) {
       <button
         className={classes.btn}
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(${img})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(${exterior})`,
         }}
         onClick={() => setShow(true)}
       ></button>
 
-      <Modal show={show} img={img} onClose={() => setShow(false)}></Modal>
+      <Modal show={show} img={exterior} onClose={() => setShow(false)}></Modal>
     </div>
   );
 }

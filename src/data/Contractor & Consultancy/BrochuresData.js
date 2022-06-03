@@ -10,12 +10,12 @@ const BrochuresData = () => {
     },
     {
       key: 2,
-      img: '',
+      img: exterior,
       text: 'Template 2',
     },
     {
       key: 3,
-      img: '',
+      img: exterior,
       text: 'Template 3',
     },
   ];

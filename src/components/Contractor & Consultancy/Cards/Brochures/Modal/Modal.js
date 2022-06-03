@@ -9,7 +9,6 @@ function Modal({ show, onClose, text, img }) {
     <div className={classes.modalWrapper}>
       <div className={classes.modal} style={{ backgroundImage: `url(${img})` }}>
         <button onClick={onClose} className={`${classes.btnClose} btn-close`}></button>
-        {text}
       </div>
     </div>
   );
