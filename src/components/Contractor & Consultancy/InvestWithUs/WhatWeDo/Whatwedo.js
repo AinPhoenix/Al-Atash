@@ -2,21 +2,14 @@ import React from 'react';
 import RightSideText from '../../Cards/RightSideText';
 import exterior from '../../../../images/Estimation & Management/ser/exterior.jpg';
 import LeftSideText from '../../Cards/LeftSideText';
+import classes from './Whatwedo.module.css';
 export default function Whatwedo() {
   return (
     <div>
       <div
+        className={classes.whatwedo}
         style={{
-          width: '100%',
-          padding: '3vh 0',
-          fontWeight: 'bold',
-          textAlign: 'center',
-          fontSize: '6.5vh',
-          color: 'white',
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(${exterior})`,
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
         }}
       >
         WHAT WE DO
@@ -25,10 +18,9 @@ export default function Whatwedo() {
         style={{
           marginLeft: 'auto',
           marginRight: 'auto',
-          display: 'flex',
-          rowGap: '2vh',
+
           width: '90%',
-          columnGap: '10%',
+
           flexWrap: 'wrap',
           justifyContent: 'space-evenly',
         }}

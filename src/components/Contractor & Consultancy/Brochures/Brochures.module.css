@@ -1,0 +1,39 @@
+.brochures {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  padding: 3vh 0;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vh;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardassemble {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  row-gap: 2vh;
+  width: 90%;
+  column-gap: 5%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .brochures {
+    font-size: 6vh;
+  }
+}

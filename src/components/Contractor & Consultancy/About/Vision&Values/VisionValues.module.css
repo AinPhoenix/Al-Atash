@@ -1,17 +1,17 @@
-.parent{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.heading{
-    text-align: center;
-    font-size: 4vh;
-    font-weight: bold;
+.heading {
+  text-align: center;
+  font-size: 4vh;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
-.parent{
+  .parent {
     justify-content: center;
-}
+  }
 }

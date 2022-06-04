@@ -1,4 +1,5 @@
 import React from 'react';
+import exterior from '../../images/Estimation & Management/ser/exterior.jpg';
 
 const ProjectsData = () => {
   return [
@@ -14,7 +15,7 @@ const ProjectsData = () => {
       projectType: 'villa',
       yearCompleted: '2017-2019',
       value: '60,000,000',
-      img: '',
+      img: exterior,
     },
     {
       key: 2,
@@ -28,7 +29,7 @@ const ProjectsData = () => {
       projectType: 'villa',
       yearCompleted: '2017-2019',
       value: '84,000,000',
-      img: '',
+      img: exterior,
     },
     {
       key: 3,
@@ -42,7 +43,7 @@ const ProjectsData = () => {
       projectType: 'villa',
       yearCompleted: '2017-2019',
       value: '60,000,000',
-      img: '',
+      img: exterior,
     },
     {
       key: 4,
@@ -56,7 +57,7 @@ const ProjectsData = () => {
       projectType: 'villa',
       yearCompleted: '2017-2019',
       value: '84,000,000',
-      img: '',
+      img: exterior,
     },
     {
       key: 5,
@@ -70,7 +71,7 @@ const ProjectsData = () => {
       projectType: 'villa',
       yearCompleted: '2017-2019',
       value: '60,000,000',
-      img: '',
+      img: exterior,
     },
     {
       key: 6,
@@ -84,7 +85,7 @@ const ProjectsData = () => {
       projectType: 'villa',
       yearCompleted: '2017-2019',
       value: '84,000,000',
-      img: '',
+      img: exterior,
     },
     {
       key: 7,
@@ -98,7 +99,7 @@ const ProjectsData = () => {
       projectType: 'villa',
       yearCompleted: '2017-2019',
       value: '60,000,000',
-      img: '',
+      img: exterior,
     },
     {
       key: 8,
@@ -112,7 +113,7 @@ const ProjectsData = () => {
       projectType: 'villa',
       yearCompleted: '2017-2019',
       value: '84,000,000',
-      img: '',
+      img: exterior,
     },
     {
       key: 9,
@@ -126,7 +127,7 @@ const ProjectsData = () => {
       projectType: 'villa',
       yearCompleted: '2017-2019',
       value: '60,000,000',
-      img: '',
+      img: exterior,
     },
   ];
 };

@@ -11,7 +11,7 @@ const Project = () => {
   console.log(data);
   return (
     <div>
-      <RightSideText client={data.client} yearcompleted={data.yearCompleted} title={data.projectName} img={exterior} />
+      <RightSideText client={data.client} yearcompleted={data.yearCompleted} title={data.projectName} img={data.img} />
     </div>
   );
 };
