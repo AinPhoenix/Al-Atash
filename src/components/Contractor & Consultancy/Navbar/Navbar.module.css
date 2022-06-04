@@ -60,6 +60,7 @@
   background-color: black;
   color: white;
   overflow-x: hidden;
+  z-index: 2;
 }
 
 .cross {
