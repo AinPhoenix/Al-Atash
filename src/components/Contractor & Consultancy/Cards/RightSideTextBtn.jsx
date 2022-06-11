@@ -21,11 +21,15 @@ const RightSideTextBtn = ({ text, title, img, link }) => {
           {text}
         </div>
         <div className={classes.padding} style={{}}></div>
-        <div className={classes.btnbox} style={{}}>
-        <Link className={classes.btn} to={link}>
-            View More
-          </Link>
-        </div>
+        {link === '' ? (
+          ''
+        ) : (
+          <div className={classes.btnbox} style={{}}>
+            <Link className={classes.btn} to={link}>
+              View More
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );

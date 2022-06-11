@@ -1,100 +1,107 @@
 /* Normal */
-.parentflex{
-    display: flex;
-    flex-direction: row-reverse;
-    height:50vh;
-    width:80%;
-    margin-left:auto;
-    margin-right:auto;
+.parentflex {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 50vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.childflex1{
-    display: flex; 
-    width: 50%; 
-    align-items: center; 
-    justify-content: right;
+.childflex1 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: right;
 }
 
-.child1img{
-    display:flex;
-    align-items:center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:40vh;
-    width:100%;
-    border-radius: 9px;
+.child1img {
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  border-radius: 9px;
 }
 
-
-.childflex2{
-    display: flex; width: 50%; align-items: center; justify-content: left;
+.childflex2 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: left;
 }
 
-.child2text{
-    width:80%;text-align:justify;
+.child2text {
+  width: 80%;
+  text-align: justify;
 }
 
-.child2text h1{
-    font-size:35px;
+.child2text h1 {
+  font-size: 35px;
 }
 
-.child2text p{
-    font-size:15px;
+.child2text p {
+  font-size: 15px;
 }
 
-.btn{
-    padding:6px 15px;
-    font-size:15px;
-    color:#FFFFFF;
-    text-decoration:none;
-    border-radius:4px;
-    background:linear-gradient(to bottom right, #FBCD38,#FCBB5B);
+.btn {
+  padding: 6px 15px;
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  background: linear-gradient(to bottom right, #fbcd38, #fcbb5b);
 }
+.btn:hover {
+  background: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+  color: white;
+}
+
 /* Laptop */
 @media only screen and (max-width: 992px) {
-    .child2text h1{
-        font-size:25px;
-    }
-    .child2text p{
-        font-size:12px;
-    }
-    
-    .btn{
-        font-size:12px;
-        padding:5px 12px;
-    }
+  .child2text h1 {
+    font-size: 25px;
+  }
+  .child2text p {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 5px 12px;
+  }
 }
 
 /* Tablet */
 @media only screen and (max-width: 768px) {
+  .child2text h1 {
+    font-size: 22px;
+  }
+  .child2text p {
+    font-size: 11px;
+    margin-bottom: 1px;
+  }
 
-    .child2text h1{
-        font-size:22px;
-    }
-    .child2text p{
-        font-size:11px;
-        margin-bottom: 1px;
-    }
-    
-    .btn{
-        font-size:11px;
-        padding:5px 12px;
-    }
+  .btn {
+    font-size: 11px;
+    padding: 5px 12px;
+  }
 }
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
-    .child2text h1{
-        font-size:15px;
-    }
-    .child2text p{
-        font-size:11px;
-        margin-bottom: 1px;
-    }
-    
-    .btn{
-        font-size:11px;
-        padding:3px 12px;
-    }
+  .child2text h1 {
+    font-size: 15px;
+  }
+  .child2text p {
+    font-size: 11px;
+    margin-bottom: 1px;
+  }
+
+  .btn {
+    font-size: 11px;
+    padding: 3px 12px;
+  }
 }

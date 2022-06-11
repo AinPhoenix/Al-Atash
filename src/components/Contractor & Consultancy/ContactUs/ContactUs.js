@@ -43,7 +43,9 @@ const ContactUs = () => {
             <i class="fas fa-map-marker-alt"></i>
           </div>
           <p>
-            Al Atash Group <br /> Near Butt Market Jrahi Stop <br /> Rawalpindi
+            SADIQ ARCADE,
+            <br /> Phase 5-B, Near KALMA CHOWK,
+            <br /> GHOURI TOWN, ISLAMABAD
           </p>
         </div>
       </div>

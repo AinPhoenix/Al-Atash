@@ -85,7 +85,7 @@ const App = () => {
           <Route index={true} path="" element={<ContractorConsultancyHome />} />
           <Route path="About" element={<ContractorConsultancyAbout />} />
           <Route path="OurVision" element={<ContractorConsultancyOurVision />} />
-          <Route path="OurValues" element={<ContractorConsultancyOurCoreValues />} />
+          <Route path="OurValues" element={<ContractorConsultancyOurVision />} />
           <Route path="Services" element={<ContractorConsultancyServices />} />
           <Route path="Services/:serviceId" element={<ContractorConsultancyService />} />
           <Route path="Projects" element={<ContractorConsultancyOurProjects />} />

@@ -1,13 +1,15 @@
-import react from "react";
-import RightSideText from "../../Cards/RightSideText";
-import exterior from "../../../../images/Estimation & Management/ser/exterior.jpg";
+import react from 'react';
+import RightSideText from '../../Cards/RightSideText';
+import exterior from '../../../../images/Estimation & Management/ser/exterior.jpg';
 const Title = 'About Us';
 const Text =
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus tortor tincidunt, aliquam erat non, vulputate ligula. Vivamus auctor ut purus vitae venenatis.';
+  'AL ATASH GROUP is a trusted name in the house construction and consultancy industry. With the extensive experience in the field since 2011, Al-Atash Group has made a name for itself providing high quality Construction and Building services to its clientele.';
 const Aboutus = () => {
-    return <div>
-        <RightSideText text={Text} title={Title} img={exterior} />
+  return (
+    <div>
+      <RightSideText text={Text} title={Title} img={exterior} />
     </div>
+  );
 };
 
 export default Aboutus;
