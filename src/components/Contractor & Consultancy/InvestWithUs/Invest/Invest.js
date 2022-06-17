@@ -17,7 +17,7 @@ export default function Invest() {
       }}
     >
       <RightSideText
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus tortor tincidunt, aliquam erat non, vulputate ligula. Vivamus auctor ut purus vitae venenatis. Sed tempus tortor tincidunt, aliquam erat non, vulputate ligula. Vivamus auctor ut purus vitae venenatis."
+        text="Al-Atash Group has the dynamic platform for the investors, individuals and companies to field of the construction, but they are deficient, Al-Atash Group give a very good and safe opportunity for them. Al-Atash Group finds the best opportunity to buy properties or plots for the investors."
         title="Invest with Us"
         img={exterior}
       />

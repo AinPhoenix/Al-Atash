@@ -1,61 +1,69 @@
-import React from 'react';
-import exterior from '../../images/Estimation & Management/ser/exterior.jpg';
+import Exterior from '../../images/Estimation & Management/Exterior.PNG';
+import HVAC from '../../images/Estimation & Management/HVAC.PNG';
+import Infrastructure from '../../images/Estimation & Management/Infrastructure.PNG';
+import Interior from '../../images/Estimation & Management/Interior.PNG';
+import Landscape from '../../images/Estimation & Management/ser/park.jpg';
+import MEPEstimation from '../../images/Estimation & Management/MEP Estimation.PNG';
+import RoadsHighways from '../../images/Estimation & Management/RoadsHighways.PNG';
+import CommercialBuilding from '../../images/Estimation & Management/ser/commercial.jpg';
+import ResidentialBuilding from '../../images/Estimation & Management/ser/residental.jpg';
+import Construction from '../../images/Estimation & Management/Construction.PNG';
 
 const ServicesData = () => {
   return [
     {
       key: 1,
-      img: exterior,
+      text: 'Exterior',
+      img: Exterior,
       link: '',
-      text: 'Template',
     },
     {
       key: 2,
-      img: exterior,
+      text: 'HVAC',
+      img: HVAC,
       link: '',
-      text: 'Template',
     },
     {
       key: 3,
-      img: exterior,
+      text: 'Infrastructure',
+      img: Infrastructure,
       link: '',
-      text: 'Template',
     },
     {
       key: 4,
-      img: exterior,
+      text: 'Interior',
+      img: Interior,
       link: '',
-      text: 'Template',
     },
     {
       key: 5,
-      img: exterior,
+      text: 'Landscape & Park',
+      img: Landscape,
       link: '',
-      text: 'Template',
     },
     {
       key: 6,
-      img: exterior,
+      text: 'Roads / Highways',
+      img: RoadsHighways,
       link: '',
-      text: 'Template',
     },
     {
       key: 7,
-      img: exterior,
+      text: 'Commercial Building',
+      img: CommercialBuilding,
       link: '',
-      text: 'Template',
     },
     {
       key: 8,
-      img: exterior,
+      text: 'Residential Building',
+      img: ResidentialBuilding,
       link: '',
-      text: 'Template',
     },
     {
       key: 9,
-      img: exterior,
+      text: 'Construction',
+      img: Construction,
       link: '',
-      text: 'Template',
     },
   ];
 };

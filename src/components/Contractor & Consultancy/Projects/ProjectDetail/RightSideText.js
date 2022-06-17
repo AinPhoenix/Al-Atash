@@ -19,7 +19,7 @@ const RightSideText = ({ client, yearcompleted, title, img }) => {
           {client}
         </div>
         <div className={classes.childh2} style={{}}>
-          Year Completed:
+          Project Type:
         </div>
         <div className={classes.childp} style={{}}>
           {yearcompleted}

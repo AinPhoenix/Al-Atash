@@ -14,8 +14,9 @@ const Introslide = () => {
         <div className={classes.child} style={{}}>
           <h1 style={{ textAlign: 'center' }}>Our Projects</h1>
           <p style={{}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus tortor tincidunt, aliquam erat non,
-            vulputate ligula. Vivamus auctor ut purus vitae venenatis.
+            AL ATASH GROUP is a trusted name in the house construction and consultancy industry. With the extensive
+            experience in the field since 2011, Al-Atash Group has made a name for itself providing high quality
+            Construction and Building services to its clients.
           </p>
         </div>
       </div>

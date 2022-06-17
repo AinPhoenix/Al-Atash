@@ -20,10 +20,9 @@ const ContractorConsultancyMissionVisionPage = () => {
         <div className={classes.child}>
           <div className={classes.childh1}>Why Choose Us</div>
           <div className={classes.childp}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus tortor tincidunt, aliquam erat non,
-            vulputate ligula. Vivamus auctor ut purus vitae venenatis. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Sed tempus tortor tincidunt, aliquam erat non, vulputate ligula. Vivamus auctor ut purus
-            vitae venenatis.
+            Al-Atash has the dynamic platform for the investors, individuals and companies to field of the construction,
+            but they are deficient, MSCC give a very good and safe opportunity for them. Al-Atash finds the best
+            opportunity to buy properties or plots for the investors.
           </div>
         </div>
       </div>
