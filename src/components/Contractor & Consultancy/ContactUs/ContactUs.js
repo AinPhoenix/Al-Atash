@@ -43,9 +43,12 @@ const ContactUs = () => {
             <i class="fas fa-map-marker-alt"></i>
           </div>
           <p>
-            SADIQ ARCADE,
-            <br /> Phase 5-B, Near KALMA CHOWK,
-            <br /> GHOURI TOWN, ISLAMABAD
+            Al Atash Group
+            <br />
+            Office No # 02, Sadiq Arcade,
+            <br />
+            Phase-5A, Near Kalma Chowk, <br />
+            Ghouri Town, Islamabad.
           </p>
         </div>
       </div>

@@ -43,11 +43,9 @@ const Touch = () => {
               Address
             </h5>
             <p className="p-0 m-0">Al Atash Group</p>
-            <p className="p-0 m-0">
-              Adiq Arcade, Phase 5-B,
-              <br /> Near Kalma Chowk,
-            </p>
-            <p className="p-0 m-0">Ghouri Town, Islamabad</p>
+            <p className="p-0 m-0">Office No # 02, Sadiq Arcade,</p>
+            <p className="p-0 m-0">Phase-5A, Near Kalma Chowk, </p>
+            <p className="p-0 m-0">Ghouri Town, Islamabad.</p>
           </div>
 
           <div className={classes.TouchBoxes}>
